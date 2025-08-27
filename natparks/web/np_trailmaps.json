@@ -4,7 +4,7 @@
   "total_items": 86,
   "items": [
     {
-      "id": "acadia2",
+      "id": "acadia1",
       "park": "Acadia National Park",
       "states": [
         "ME"
@@ -16,7 +16,35 @@
       "sha256": "9e582c33ce14507c184e7c8dab9207ec8339c585f00d78f7c9dbf08db41c1de1",
       "source_url": "https://npplan.com/wp-content/uploads/2018/06/Acadia-National-Park-Map.pdf",
       "download_ok": true
-    },    
+    },   
+    {
+      "id": "acadia2",
+      "park": "Acadia National Park",
+      "states": [
+        "ME"
+      ],
+      "title": "Acadia National Park Schoodic Penninsula Map",
+      "filename": "Schoodic-Peninsula-Map.pdf",
+      "path": "pdfs/Schoodic-Peninsula-Map.pdf",
+      "size_bytes": 158000,
+      "sha256": "n/a",
+      "source_url": "https://npplan.com/wp-content/uploads/2018/06/Schoodic-Peninsula-Map.pdf",
+      "download_ok": true
+    },  
+    {
+      "id": "acadia2",
+      "park": "Acadia National Park",
+      "states": [
+        "ME"
+      ],
+      "title": "Acadia National Park Isle of Haut Map",
+      "filename": "Isle-au-Haut-Map.pdf",
+      "path": "pdfs/Isle-au-Haut-Map.pdf",
+      "size_bytes": 530581,
+      "sha256": "n/a",
+      "source_url": "https://npplan.com/wp-content/uploads/2018/06/Isle-au-Haut-Mapf",
+      "download_ok": true
+    },           
     {
       "id": "5acd980d2970",
       "park": "Black Canyon of the Gunnison National Park",
