@@ -6,75 +6,297 @@
   <title>U.S. National Parks — Trail & Wilderness Maps</title>
   <style>
     :root {
-      --bg: #0f172a;
-      --panel: #0b1120;
-      --muted: #9aa4b2;
-      --text: #e5e7eb;
-      --accent: #22c55e;
-      --accent2: #3b82f6;
-      --ring: rgba(59,130,246,.25);
-      --card: #0a0f1a;
-      --border: rgba(148,163,184,.15);
+      --bg: linear-gradient(135deg, #0f1419 0%, #1a2332 100%);
+      --panel: rgba(40, 54, 70, 0.8);
+      --muted: #a8b5c4;
+      --text: #e8f0f7;
+      --accent: #4ade80;
+      --accent2: #38bdf8;
+      --ring: rgba(56, 189, 248, 0.3);
+      --card: rgba(20, 35, 50, 0.9);
+      --border: rgba(120, 140, 160, 0.2);
+      --forest: #2d5a3d;
+      --mountain: #4a5568;
+      --earth: #8b7355;
     }
+    
     * { box-sizing: border-box; }
+    
     body {
-      margin: 0; background: var(--bg); color: var(--text);
+      margin: 0; 
+      background: var(--bg);
+      background-attachment: fixed;
+      color: var(--text);
       font: 15px/1.55 ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+      position: relative;
     }
+    
+    body::before {
+      content: '';
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: 
+        radial-gradient(circle at 20% 80%, rgba(45, 90, 61, 0.3) 0%, transparent 50%),
+        radial-gradient(circle at 80% 20%, rgba(74, 85, 104, 0.3) 0%, transparent 50%),
+        radial-gradient(circle at 40% 40%, rgba(139, 115, 85, 0.2) 0%, transparent 50%);
+      pointer-events: none;
+      z-index: -1;
+    }
+    
     header {
-      position: sticky; top: 0; z-index: 10;
-      backdrop-filter: blur(8px);
-      background: linear-gradient(180deg, rgba(11,17,32,.95), rgba(11,17,32,.65));
+      position: sticky; 
+      top: 0; 
+      z-index: 10;
+      backdrop-filter: blur(12px) saturate(180%);
+      background: linear-gradient(180deg, rgba(20, 35, 50, 0.95), rgba(20, 35, 50, 0.8));
       border-bottom: 1px solid var(--border);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
     }
-    .wrap { max-width: 1200px; margin: 0 auto; padding: 16px; }
-    h1 { margin: 0 0 8px; font-size: 22px; letter-spacing: .35px; }
+    
+    .wrap { 
+      max-width: 1200px; 
+      margin: 0 auto; 
+      padding: 16px; 
+    }
+    
+    h1 { 
+      margin: 0 0 8px; 
+      font-size: 22px; 
+      letter-spacing: 0.5px;
+      background: linear-gradient(135deg, var(--accent) 0%, var(--accent2) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      font-weight: 600;
+    }
+    
     .controls {
-      display: grid; gap: 10px;
+      display: grid; 
+      gap: 12px;
       grid-template-columns: 1.3fr 160px 180px 180px 120px;
     }
+    
     input[type="search"], select, button {
-      padding: 10px 12px; border-radius: 10px; border: 1px solid var(--border);
-      background: var(--panel); color: var(--text); outline: none;
+      padding: 12px 16px; 
+      border-radius: 12px; 
+      border: 1px solid var(--border);
+      background: var(--panel); 
+      color: var(--text); 
+      outline: none;
+      backdrop-filter: blur(8px);
+      transition: all 0.3s ease;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     }
+    
     input[type="search"]:focus, select:focus {
-      border-color: var(--accent2); box-shadow: 0 0 0 3px var(--ring);
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px var(--ring), 0 4px 16px rgba(0, 0, 0, 0.2);
+      transform: translateY(-1px);
     }
-    .btn { cursor: pointer; }
-    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; padding: 18px 16px 40px; }
+    
+    input[type="search"]::placeholder {
+      color: var(--muted);
+    }
+    
+    .btn { 
+      cursor: pointer;
+      background: linear-gradient(135deg, var(--forest) 0%, var(--mountain) 100%);
+      border-color: transparent;
+      font-weight: 500;
+      transition: all 0.3s ease;
+    }
+    
+    .btn:hover {
+      background: linear-gradient(135deg, #3a6b4d 0%, #5a6b7a 100%);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    }
+    
+    .grid { 
+      display: grid; 
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+      gap: 20px; 
+      padding: 24px 16px 40px; 
+    }
+    
     .card {
-      background: var(--card); border: 1px solid var(--border);
-      border-radius: 16px; padding: 14px; box-shadow: 0 6px 20px rgba(0,0,0,.25);
-      display: flex; flex-direction: column; gap: 8px; min-height: 140px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 20px; 
+      padding: 20px; 
+      backdrop-filter: blur(12px);
+      box-shadow: 
+        0 8px 32px rgba(0, 0, 0, 0.3),
+        inset 0 1px 0 rgba(255, 255, 255, 0.1);
+      display: flex; 
+      flex-direction: column; 
+      gap: 12px; 
+      min-height: 160px;
+      transition: all 0.4s ease;
+      position: relative;
+      overflow: hidden;
     }
-    .park { font-weight: 700; font-size: 16px; }
-    .muted { color: var(--muted); font-size: 12px; }
-    .chips { display: flex; gap: 6px; flex-wrap: wrap; }
+    
+    .card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, var(--accent) 0%, var(--accent2) 50%, var(--forest) 100%);
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+    
+    .card:hover {
+      transform: translateY(-4px) scale(1.02);
+      box-shadow: 
+        0 16px 48px rgba(0, 0, 0, 0.4),
+        inset 0 1px 0 rgba(255, 255, 255, 0.15);
+    }
+    
+    .card:hover::before {
+      opacity: 1;
+    }
+    
+    .park { 
+      font-weight: 700; 
+      font-size: 18px;
+      background: linear-gradient(135deg, var(--text) 0%, var(--accent) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    
+    .muted { 
+      color: var(--muted); 
+      font-size: 13px;
+      line-height: 1.4;
+    }
+    
+    .chips { 
+      display: flex; 
+      gap: 8px; 
+      flex-wrap: wrap; 
+    }
+    
     .chip {
-      border: 1px solid var(--border); border-radius: 999px; padding: 2px 8px; font-size: 12px; color: var(--muted);
+      border: 1px solid var(--accent);
+      background: rgba(74, 222, 128, 0.1);
+      border-radius: 20px; 
+      padding: 4px 12px; 
+      font-size: 11px; 
+      color: var(--accent);
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      backdrop-filter: blur(4px);
     }
-    .actions { display: flex; align-items: center; gap: 8px; margin-top: 6px; }
+    
+    .actions { 
+      display: flex; 
+      align-items: center; 
+      gap: 10px; 
+      margin-top: auto;
+    }
+    
     .link {
-      padding: 8px 10px; border-radius: 10px; border: 1px solid var(--border);
-      background: var(--panel); color: var(--text); text-decoration: none; text-align: center;
-      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+      padding: 10px 14px; 
+      border-radius: 12px; 
+      border: 1px solid var(--border);
+      background: var(--panel); 
+      color: var(--text); 
+      text-decoration: none; 
+      text-align: center;
+      white-space: nowrap; 
+      overflow: hidden; 
+      text-overflow: ellipsis;
+      transition: all 0.3s ease;
+      backdrop-filter: blur(8px);
+      font-size: 13px;
+      font-weight: 500;
+      flex: 1;
     }
-    .link:hover { border-color: var(--accent); }
-    .count { color: var(--muted); font-size: 13px; }
-    .footer { text-align: center; color: var(--muted); font-size: 12px; padding: 14px 0 26px; }
-    .row { display: flex; align-items: center; gap: 8px; justify-content: space-between; }
-    .row .left { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
-    .badge { background: #0f1a2a; border: 1px solid var(--border); border-radius: 8px; padding: 2px 8px; font-size: 12px; color: var(--muted); }
-    @media (max-width: 1020px) { .controls { grid-template-columns: 1fr 1fr 1fr; } }
-    @media (max-width: 620px) { .controls { grid-template-columns: 1fr; } }
+    
+    .link:hover { 
+      border-color: var(--accent);
+      background: rgba(74, 222, 128, 0.1);
+      color: var(--accent);
+      transform: translateY(-1px);
+    }
+    
+    .count { 
+      color: var(--muted); 
+      font-size: 14px;
+      background: rgba(20, 35, 50, 0.6);
+      padding: 6px 12px;
+      border-radius: 20px;
+      backdrop-filter: blur(8px);
+      display: inline-block;
+    }
+    
+    .footer { 
+      text-align: center; 
+      color: var(--muted); 
+      font-size: 12px; 
+      padding: 20px 0 30px;
+      background: rgba(20, 35, 50, 0.4);
+      border-radius: 12px;
+      margin-top: 20px;
+      backdrop-filter: blur(8px);
+    }
+    
+    .row { 
+      display: flex; 
+      align-items: center; 
+      gap: 12px; 
+      justify-content: space-between; 
+    }
+    
+    .row .left { 
+      display: flex; 
+      gap: 12px; 
+      align-items: center; 
+      flex-wrap: wrap; 
+    }
+    
+    .badge { 
+      background: linear-gradient(135deg, var(--mountain) 0%, var(--earth) 100%);
+      border: 1px solid var(--border); 
+      border-radius: 10px; 
+      padding: 4px 10px; 
+      font-size: 11px; 
+      color: var(--text);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      backdrop-filter: blur(4px);
+    }
+    
+    /* Responsive design */
+    @media (max-width: 1020px) { 
+      .controls { grid-template-columns: 1fr 1fr 1fr; } 
+      .grid { grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); }
+    }
+    
+    @media (max-width: 620px) { 
+      .controls { grid-template-columns: 1fr; }
+      .grid { grid-template-columns: 1fr; gap: 16px; }
+      .card { padding: 16px; }
+      h1 { font-size: 20px; }
+    }
   </style>
 </head>
 <body>
   <header>
     <div class="wrap">
-      <h1>U.S. National Parks — Trail & Wilderness Maps</h1>
+      <h1>🏔️ U.S. National Parks — Trail & Wilderness Maps</h1>
       <div class="controls">
-        <input id="q" type="search" placeholder="Search parks, states, titles, filenames…" />
+        <input id="q" type="search" placeholder="🔍 Search parks, states, titles, filenames…" />
         <select id="state">
           <option value="">All states</option>
         </select>
@@ -89,7 +311,7 @@
           <option value="title-asc">Sort: Title (A→Z)</option>
           <option value="title-desc">Sort: Title (Z→A)</option>
         </select>
-        <button id="export" class="btn">Export view → CSV</button>
+        <button id="export" class="btn">📊 Export CSV</button>
       </div>
       <div class="wrap" style="padding:8px 0 0 0;">
         <span class="count" id="count"></span>
@@ -99,7 +321,7 @@
 
   <main class="wrap">
     <section id="results" class="grid"></section>
-    <div class="footer">Prepper Disk</div>
+    <div class="footer">🌲 Prepper Disk | This information is provided with no warranty, and is available to use in your projects in accordance with the MIT license 🌲</div>
   </main>
 
 <script>
@@ -169,10 +391,10 @@ function card(item){
   const actions = document.createElement("div");
   actions.className = "actions";
   const a = document.createElement("a");
-  a.href = item.path; a.className = "link"; a.textContent = "Download PDF";
+  a.href = item.path; a.className = "link"; a.textContent = "📥 Download PDF";
   a.setAttribute("download", "");
   const src = document.createElement("a");
-  src.href = item.path; src.className = "link"; src.textContent = "Open URL";
+  src.href = item.path; src.className = "link"; src.textContent = "🔗 Open URL";
   src.target = "_blank"; src.rel = "noopener";
   actions.appendChild(a);
   actions.appendChild(src);
