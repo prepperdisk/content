@@ -1,0 +1,1217 @@
+{
+  "generated_at": "2025-08-27T05:47:19.289102+00:00",
+  "source_csv": "national_parks_trailmaps.csv",
+  "total_items": 86,
+  "items": [
+    {
+      "id": "5acd980d2970",
+      "park": "Black Canyon of the Gunnison National Park",
+      "states": [
+        "CO"
+      ],
+      "title": "Blca Innercanyon",
+      "filename": "black-canyon-of-the-gunnison-national-park__blca_innercanyon__858dbf10.pdf",
+      "path": "pdfs/black-canyon-of-the-gunnison-national-park__blca_innercanyon__858dbf10.pdf",
+      "size_bytes": 530581,
+      "sha256": "9e582c33ce14507c184e7c8dab9207ec8339c585f00d78f7c9dbf08db41c1de1",
+      "source_url": "https://www.nps.gov/blca/planyourvisit/upload/blca_innercanyon.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "efeb5cb38e2e",
+      "park": "American Samoa National Park",
+      "states": [
+        "AS"
+      ],
+      "title": "Area Map",
+      "filename": "american-samoa-national-park__area_map__22374d9a.pdf",
+      "path": "pdfs/american-samoa-national-park__area_map__22374d9a.pdf",
+      "size_bytes": 1931265,
+      "sha256": "61fff58e607423dd4ec51c01cb854fecd78d0dc235f18b3337d20d53cea03460",
+      "source_url": "https://www.nps.gov/npsa/planyourvisit/upload/Area_Map.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "5698a6edeb2e",
+      "park": "Canyonlands National Park",
+      "states": [
+        "UT"
+      ],
+      "title": "Needles Trailsand Roads2024 With Davis Road Setback 1",
+      "filename": "canyonlands-national-park__needlestrailsandroads2024_with-davis-road-setback-1__e0901086.pdf",
+      "path": "pdfs/canyonlands-national-park__needlestrailsandroads2024_with-davis-road-setback-1__e0901086.pdf",
+      "size_bytes": 305923,
+      "sha256": "f95d7c62f51ed1a4f35f7b326916fdc0f838dca2a08ee8379856b21307dbdff5",
+      "source_url": "https://www.nps.gov/cany/planyourvisit/upload/NeedlesTrailsandRoads2024_with-Davis-Road-Setback-1.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "17831b8fe93d",
+      "park": "Canyonlands National Park",
+      "states": [
+        "UT"
+      ],
+      "title": "Island Roadsand Trails Updated24 508forweb",
+      "filename": "canyonlands-national-park__islandroadsandtrailsupdated24-508forweb__b8078f35.pdf",
+      "path": "pdfs/canyonlands-national-park__islandroadsandtrailsupdated24-508forweb__b8078f35.pdf",
+      "size_bytes": 349001,
+      "sha256": "b29a639d9bc0d2e37ca41b68c21bcddba7637b1727dce86980c3373715610d55",
+      "source_url": "https://www.nps.gov/cany/planyourvisit/upload/IslandRoadsandTrailsUpdated24-508forweb.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "489decebabcb",
+      "park": "Big Bend National Park",
+      "states": [
+        "TX"
+      ],
+      "title": "2023 Wild And Scenic Rivers Brochure",
+      "filename": "big-bend-national-park__2023-wild-and-scenic-rivers-brochure__06338590.pdf",
+      "path": "pdfs/big-bend-national-park__2023-wild-and-scenic-rivers-brochure__06338590.pdf",
+      "size_bytes": 3181653,
+      "sha256": "461118958ad1a8be52d4ac97ffc6d245e5c542c0810bbf192a6365059b819332",
+      "source_url": "https://www.nps.gov/bibe/planyourvisit/upload/2023-Wild-and-Scenic-Rivers-Brochure.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "c76ddf9c5eee",
+      "park": "Black Canyon of the Gunnison National Park",
+      "states": [
+        "CO"
+      ],
+      "title": "Black Canyon Unigrid 2023 508 Web",
+      "filename": "black-canyon-of-the-gunnison-national-park__black_canyon_unigrid_2023_508_web__61334970.pdf",
+      "path": "pdfs/black-canyon-of-the-gunnison-national-park__black_canyon_unigrid_2023_508_web__61334970.pdf",
+      "size_bytes": 7185019,
+      "sha256": "e05d5b66c6e9a43556a527830d169d661b1a040671dc55cb1278fb854ce000f8",
+      "source_url": "https://www.nps.gov/blca/planyourvisit/upload/Black_Canyon_unigrid_2023_508_web.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "c4844f84e867",
+      "park": "Carlsbad Caverns National Park",
+      "states": [
+        "NM"
+      ],
+      "title": "Interesting Facts",
+      "filename": "carlsbad-caverns-national-park__interesting-facts__846c1e88.pdf",
+      "path": "pdfs/carlsbad-caverns-national-park__interesting-facts__846c1e88.pdf",
+      "size_bytes": 1536722,
+      "sha256": "43be62818a93f130d8b8b4a75d7d0639b96a4f57ff660720cc096430bbf60e3d",
+      "source_url": "https://www.nps.gov/cave/learn/news/upload/Interesting-Facts.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "68f5bb4b5a57",
+      "park": "Canyonlands National Park",
+      "states": [
+        "UT"
+      ],
+      "title": "Need Backcountry Zone Map Final 508",
+      "filename": "canyonlands-national-park__need-backcountry-zone-map-final-508__0d838e1f.pdf",
+      "path": "pdfs/canyonlands-national-park__need-backcountry-zone-map-final-508__0d838e1f.pdf",
+      "size_bytes": 1559718,
+      "sha256": "c1cf879946a40a067d6402a4f90b60e4b0fb8697baf310b9893c63bc81d10ada",
+      "source_url": "https://www.nps.gov/cany/planyourvisit/upload/Need-Backcountry-Zone-Map-final-508.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "8c4822a134bb",
+      "park": "Denali National Park and Preserve",
+      "states": [
+        "AK"
+      ],
+      "title": "Trail Map Letter Size",
+      "filename": "denali-national-park-and-preserve__trail-map-letter-size__f61a84e0.pdf",
+      "path": "pdfs/denali-national-park-and-preserve__trail-map-letter-size__f61a84e0.pdf",
+      "size_bytes": 694167,
+      "sha256": "c344e9eb26e12f7a09a2ccf1baed08ed90bca8b7953357d94f46da8c8a1e7ab8",
+      "source_url": "https://www.nps.gov/dena/planyourvisit/upload/trail-map-letter-size.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "b498a1f1c501",
+      "park": "Canyonlands National Park",
+      "states": [
+        "UT"
+      ],
+      "title": "ISKY Backcountry Zone Map Final 508",
+      "filename": "canyonlands-national-park__isky-backcountry-zone-map-final-508__d72a0d40.pdf",
+      "path": "pdfs/canyonlands-national-park__isky-backcountry-zone-map-final-508__d72a0d40.pdf",
+      "size_bytes": 1696156,
+      "sha256": "0eeef88f84d5277b699a874f13950cd86dd0fddd897de45b66aab69435c23ab7",
+      "source_url": "https://www.nps.gov/cany/planyourvisit/upload/ISKY-Backcountry-Zone-Map-Final-508.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "3270033faafd",
+      "park": "Channel Islands National Park",
+      "states": [
+        "CA"
+      ],
+      "title": "Santa Rosa Hiking Map And Guide October 2023v2 ADA",
+      "filename": "channel-islands-national-park__santa-rosa-hiking-map-and-guide-october-2023v2-ada__d4416b6f.pdf",
+      "path": "pdfs/channel-islands-national-park__santa-rosa-hiking-map-and-guide-october-2023v2-ada__d4416b6f.pdf",
+      "size_bytes": 1868447,
+      "sha256": "dd4733b7d7a19c7ae983477a087d25a15c23fd8e985ad54f4399e086738e1e1a",
+      "source_url": "https://www.nps.gov/chis/planyourvisit/upload/Santa-Rosa-Hiking-Map-and-Guide-October-2023v2-ADA.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "b06cb7b16248",
+      "park": "Gates of the Arctic National Park and Preserve",
+      "states": [
+        "AK"
+      ],
+      "title": "Gaarmap1",
+      "filename": "gates-of-the-arctic-national-park-and-preserve__gaarmap1__7b265cd8.pdf",
+      "path": "pdfs/gates-of-the-arctic-national-park-and-preserve__gaarmap1__7b265cd8.pdf",
+      "size_bytes": 56337,
+      "sha256": "d335d86812652c2d0611bd1c49dd5bf474502baad02b42579219f2d32d99c457",
+      "source_url": "https://www.nps.gov/carto/hfc/carto/media/gaarmap1.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "b116993271a1",
+      "park": "Glacier Bay National Park and Preserve",
+      "states": [
+        "AK"
+      ],
+      "title": "GLBA Compendium Bartlett Cove Docking Map 2024 508c",
+      "filename": "glacier-bay-national-park-and-preserve__glba-compendium-bartlett-cove-docking-map-2024-508c__218c8888.pdf",
+      "path": "pdfs/glacier-bay-national-park-and-preserve__glba-compendium-bartlett-cove-docking-map-2024-508c__218c8888.pdf",
+      "size_bytes": 606121,
+      "sha256": "6d5200712f44f1fb3917ce15a4a700ec93fb7788262f944d0ec1ec48245f7c15",
+      "source_url": "https://www.nps.gov/glba/planyourvisit/upload/GLBA-Compendium-Bartlett-Cove-Docking-Map-2024-508c.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "497f1f30a4fb",
+      "park": "Death Valley National Park",
+      "states": [
+        "CA",
+        "NV"
+      ],
+      "title": "508 Backcountry And Wilderness Access Map",
+      "filename": "death-valley-national-park__508-backcountry-and-wilderness-access-map___f90e7b72.pdf",
+      "path": "pdfs/death-valley-national-park__508-backcountry-and-wilderness-access-map___f90e7b72.pdf",
+      "size_bytes": 5835597,
+      "sha256": "e8552305a9c2731669218cd67c95544a975d1a5f036ba3d694b79aa699757ed8",
+      "source_url": "https://www.nps.gov/deva/planyourvisit/upload/508-Backcountry-and-Wilderness-Access-map_.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "e31ec7add2df",
+      "park": "Grand Canyon National Park",
+      "states": [
+        "AZ"
+      ],
+      "title": "Grcamap2",
+      "filename": "grand-canyon-national-park__grcamap2__57e4d502.pdf",
+      "path": "pdfs/grand-canyon-national-park__grcamap2__57e4d502.pdf",
+      "size_bytes": 691350,
+      "sha256": "acfa6ca8a72f32c38dc75c5c10d3afa43fb6bd9b7db85213ef028649426612d4",
+      "source_url": "https://www.nps.gov/grca/planyourvisit/upload/GRCAmap2.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "1ff4685c0304",
+      "park": "Grand Canyon National Park",
+      "states": [
+        "AZ"
+      ],
+      "title": "Sr Pocket Map",
+      "filename": "grand-canyon-national-park__sr-pocket-map__63dbf47c.pdf",
+      "path": "pdfs/grand-canyon-national-park__sr-pocket-map__63dbf47c.pdf",
+      "size_bytes": 1495466,
+      "sha256": "8370ed4a6883e57de73be2fa75d7b3ae571a84a426a97a1b516fe707a9bdf1f4",
+      "source_url": "https://www.nps.gov/grca/learn/news/upload/sr-pocket-map.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "32349911906b",
+      "park": "Glacier Bay National Park and Preserve",
+      "states": [
+        "AK"
+      ],
+      "title": "GLBA Bartlett Cove Campground Area Map 2024 8 5x11",
+      "filename": "glacier-bay-national-park-and-preserve__glba-bartlett-cove-campground-area-map-2024-8-5x11__7d2f047b.pdf",
+      "path": "pdfs/glacier-bay-national-park-and-preserve__glba-bartlett-cove-campground-area-map-2024-8-5x11__7d2f047b.pdf",
+      "size_bytes": 1088157,
+      "sha256": "6121b41eaeb9c402149f1a54e73ec29fbc829c3046ddcd760da4084e36056578",
+      "source_url": "https://www.nps.gov/glba/planyourvisit/upload/GLBA-Bartlett-Cove-Campground-Area-Map-2024-8-5x11.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "06112f439ac2",
+      "park": "Grand Canyon National Park",
+      "states": [
+        "AZ"
+      ],
+      "title": "Nr Pocket Map",
+      "filename": "grand-canyon-national-park__nr-pocket-map__e652a0a6.pdf",
+      "path": "pdfs/grand-canyon-national-park__nr-pocket-map__e652a0a6.pdf",
+      "size_bytes": 2030834,
+      "sha256": "e3092e0cbe1f62eb92463160f1dc39d5accb495d23904a4c94ca5a3a059d8b11",
+      "source_url": "https://www.nps.gov/grca/learn/news/upload/nr-pocket-map.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "71c3fe0fec2f",
+      "park": "Grand Canyon National Park",
+      "states": [
+        "AZ"
+      ],
+      "title": "Intro Bc Hike",
+      "filename": "grand-canyon-national-park__intro-bc-hike__0d023e1b.pdf",
+      "path": "pdfs/grand-canyon-national-park__intro-bc-hike__0d023e1b.pdf",
+      "size_bytes": 6262211,
+      "sha256": "22408955c1b273761ec610d95a6d00a4f71aedee0e6fd78e330e5a5ba4b9001c",
+      "source_url": "https://www.nps.gov/grca/planyourvisit/upload/intro-bc-hike.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "8032762451eb",
+      "park": "Glacier Bay National Park and Preserve",
+      "states": [
+        "AK"
+      ],
+      "title": "GLBA Bartlett Cove Campground Map 508c Web",
+      "filename": "glacier-bay-national-park-and-preserve__glba-bartlett-cove-campground-map-508c-web__f0da33f5.pdf",
+      "path": "pdfs/glacier-bay-national-park-and-preserve__glba-bartlett-cove-campground-map-508c-web__f0da33f5.pdf",
+      "size_bytes": 3852715,
+      "sha256": "98c99b549623c258da448c33f3363fc9a6b12694b673bcf6c5c945e932996624",
+      "source_url": "https://www.nps.gov/glba/planyourvisit/upload/GLBA-Bartlett-Cove-Campground-Map-508c-web.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "b01a1c1510f7",
+      "park": "Dry Tortugas National Park",
+      "states": [
+        "FL"
+      ],
+      "title": "11438 Booklet Chart",
+      "filename": "dry-tortugas-national-park__11438_bookletchart__709f49b8.pdf",
+      "path": "pdfs/dry-tortugas-national-park__11438_bookletchart__709f49b8.pdf",
+      "size_bytes": 0,
+      "sha256": "",
+      "source_url": "http://www.charts.noaa.gov/BookletChart/11438_BookletChart.pdf",
+      "download_ok": false
+    },
+    {
+      "id": "78d265f32256",
+      "park": "Great Smoky Mountains National Park",
+      "states": [
+        "TN",
+        "NC"
+      ],
+      "title": "Gsmnp Trail Map 508 2",
+      "filename": "great-smoky-mountains-national-park__gsmnp-trail-map_508-2__c3f93a9d.pdf",
+      "path": "pdfs/great-smoky-mountains-national-park__gsmnp-trail-map_508-2__c3f93a9d.pdf",
+      "size_bytes": 1575911,
+      "sha256": "681fb30f6aa059b46b5fc5c8d7cbb32ca0e97da0f5aa67ec7cf652b991e31fcd",
+      "source_url": "https://www.nps.gov/grsm/planyourvisit/upload/GSMNP-Trail-Map_508-2.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "ebf5b4e671ca",
+      "park": "Great Smoky Mountains National Park",
+      "states": [
+        "TN",
+        "NC"
+      ],
+      "title": "Grsmmap2",
+      "filename": "great-smoky-mountains-national-park__grsmmap2__d442cecd.pdf",
+      "path": "pdfs/great-smoky-mountains-national-park__grsmmap2__d442cecd.pdf",
+      "size_bytes": 412324,
+      "sha256": "caeaecce91647b8e07dc592e554aacef38d9e717199a96c8c6b011e4b59adfd8",
+      "source_url": "https://www.nps.gov/grsm/planyourvisit/upload/GRSMmap2.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "23bea7e14a13",
+      "park": "Katmai National Park and Preserve",
+      "states": [
+        "AK"
+      ],
+      "title": "Geographic Harbor Special Designated Area Map",
+      "filename": "katmai-national-park-and-preserve__geographic_harbor_special_designated_area_map__e9095260.pdf",
+      "path": "pdfs/katmai-national-park-and-preserve__geographic_harbor_special_designated_area_map__e9095260.pdf",
+      "size_bytes": 2516121,
+      "sha256": "fdb0dd7f915e6a5ce2008f2c196d0ab2a4f18d98bc08cbb81fd80c6c39e7c13d",
+      "source_url": "https://www.nps.gov/katm/planyourvisit/upload/Geographic_Harbor_Special_Designated_Area_Map.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "26a2f7784964",
+      "park": "Katmai National Park and Preserve",
+      "states": [
+        "AK"
+      ],
+      "title": "Hallo Bay Closure Map",
+      "filename": "katmai-national-park-and-preserve__hallo_bay_closure_map__4b851fc8.pdf",
+      "path": "pdfs/katmai-national-park-and-preserve__hallo_bay_closure_map__4b851fc8.pdf",
+      "size_bytes": 2320962,
+      "sha256": "1d65b83000b2c16a86ac8a5fd0b064f75e1889431c19967c1cdbdcab51fd8b54",
+      "source_url": "https://www.nps.gov/katm/planyourvisit/upload/Hallo_Bay_Closure_Map.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "905f73f85a88",
+      "park": "Kings Canyon National Park",
+      "states": [
+        "CA"
+      ],
+      "title": "2021 Campground Map Buckeye 508",
+      "filename": "kings-canyon-national-park__2021_campground_map_buckeye-508__b0195a69.pdf",
+      "path": "pdfs/kings-canyon-national-park__2021_campground_map_buckeye-508__b0195a69.pdf",
+      "size_bytes": 35574,
+      "sha256": "9bbc5c56912c6e6e80f87e384f693ea0205f871d6dde88c251ac97b87407a631",
+      "source_url": "https://www.nps.gov/seki/planyourvisit/upload/2021_Campground_map_Buckeye-508.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "5c6d116aa36f",
+      "park": "Katmai National Park and Preserve",
+      "states": [
+        "AK"
+      ],
+      "title": "Moraine Funnel Camping Closure Map",
+      "filename": "katmai-national-park-and-preserve__moraine_funnel_camping_closure_map__0c69961c.pdf",
+      "path": "pdfs/katmai-national-park-and-preserve__moraine_funnel_camping_closure_map__0c69961c.pdf",
+      "size_bytes": 2540767,
+      "sha256": "3569f5f037caded28ec9b3a54b53b1808b604220f047d977fe80bf7f1ba2757e",
+      "source_url": "https://www.nps.gov/katm/planyourvisit/upload/Moraine_Funnel_Camping_Closure_Map.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "d58efd8458dd",
+      "park": "Kings Canyon National Park",
+      "states": [
+        "CA"
+      ],
+      "title": "2021 Campground Map Cold Springs 508",
+      "filename": "kings-canyon-national-park__2021_campground_map_cold_springs-508__bb4f1ce5.pdf",
+      "path": "pdfs/kings-canyon-national-park__2021_campground_map_cold_springs-508__bb4f1ce5.pdf",
+      "size_bytes": 31564,
+      "sha256": "91ae136e60cd24f33d3abdbc80c16660b636da09f54407f45fbd5a04cefcaca6",
+      "source_url": "https://www.nps.gov/seki/planyourvisit/upload/2021_Campground_map_Cold_Springs-508.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "933ba81c6cba",
+      "park": "Kings Canyon National Park",
+      "states": [
+        "CA"
+      ],
+      "title": "2021 Campground Map Crystal Springs 508",
+      "filename": "kings-canyon-national-park__2021_campground_map_crystal_springs-508__724aa4e3.pdf",
+      "path": "pdfs/kings-canyon-national-park__2021_campground_map_crystal_springs-508__724aa4e3.pdf",
+      "size_bytes": 41559,
+      "sha256": "042e08225e78d6f13950eb6eb249d878f1cfd2ccfe4b6670ed66fdf27a77c7ec",
+      "source_url": "https://www.nps.gov/seki/planyourvisit/upload/2021_Campground_map_Crystal_Springs-508.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "ed8d96dbb057",
+      "park": "Great Smoky Mountains National Park",
+      "states": [
+        "TN",
+        "NC"
+      ],
+      "title": "Grsmmap 2024 Reduced 508",
+      "filename": "great-smoky-mountains-national-park__grsmmap_2024_reduced_508__abeb7e9b.pdf",
+      "path": "pdfs/great-smoky-mountains-national-park__grsmmap_2024_reduced_508__abeb7e9b.pdf",
+      "size_bytes": 6221950,
+      "sha256": "7cc2dc86a08f2b506f0900170e5e242247ca245e2c80dad44cdf037d0d27b933",
+      "source_url": "https://www.nps.gov/grsm/planyourvisit/upload/grsmmap_2024_reduced_508.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "9b3e8d181890",
+      "park": "Kings Canyon National Park",
+      "states": [
+        "CA"
+      ],
+      "title": "2021 Campground Map Sentinel 508",
+      "filename": "kings-canyon-national-park__2021_campground_map_sentinel-508__6daf420f.pdf",
+      "path": "pdfs/kings-canyon-national-park__2021_campground_map_sentinel-508__6daf420f.pdf",
+      "size_bytes": 312400,
+      "sha256": "9419d42468eb6aa68297f8c7ad8cc02b6c5b952137b9a4e250da51f97dcf7d47",
+      "source_url": "https://www.nps.gov/seki/planyourvisit/upload/2021_Campground_map_Sentinel-508.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "f57968dd8eb1",
+      "park": "Kings Canyon National Park",
+      "states": [
+        "CA"
+      ],
+      "title": "Dorst Creek Campground 20130607 Ewilliams",
+      "filename": "kings-canyon-national-park__dorstcreekcampground_20130607_ewilliams__f8f7b8eb.pdf",
+      "path": "pdfs/kings-canyon-national-park__dorstcreekcampground_20130607_ewilliams__f8f7b8eb.pdf",
+      "size_bytes": 537402,
+      "sha256": "c70b110a4d2b9a4495b6a37f66ea14212eb06b98bb6a6870bf05570f93759d3e",
+      "source_url": "https://www.nps.gov/seki/planyourvisit/upload/DorstCreekCampground_20130607_ewilliams.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "c5ebe7f918fb",
+      "park": "Mount Rainier National Park",
+      "states": [
+        "WA"
+      ],
+      "title": "2019 Paradise Area Trails 508",
+      "filename": "mount-rainier-national-park__2019-paradise-area-trails_508__6d843fcf.pdf",
+      "path": "pdfs/mount-rainier-national-park__2019-paradise-area-trails_508__6d843fcf.pdf",
+      "size_bytes": 771418,
+      "sha256": "16fc9da1fb0491e15f99a0d587ee252dced2c6c9cf42e9177c093b6759f7a025",
+      "source_url": "https://www.nps.gov/mora/planyourvisit/upload/2019-Paradise-Area-Trails_508.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "1c6efad5a03d",
+      "park": "Mount Rainier National Park",
+      "states": [
+        "WA"
+      ],
+      "title": "2016 Longmire Cougar Rock Area Trails Access",
+      "filename": "mount-rainier-national-park__2016-longmire_cougar-rock-area-trails_access__7f165bde.pdf",
+      "path": "pdfs/mount-rainier-national-park__2016-longmire_cougar-rock-area-trails_access__7f165bde.pdf",
+      "size_bytes": 986975,
+      "sha256": "580d032d1c1f6fbd7c4ef5fff47f71b9906896c99dd7c7f9e65daac9035f832e",
+      "source_url": "https://www.nps.gov/mora/planyourvisit/upload/2016-Longmire_Cougar-Rock-Area-Trails_access.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "aa7563692f40",
+      "park": "Mount Rainier National Park",
+      "states": [
+        "WA"
+      ],
+      "title": "Camp Muir Route With Get Your Bearings Map Jan18",
+      "filename": "mount-rainier-national-park__camp-muir-route-with-get-your-bearings-map-jan18__50ef3625.pdf",
+      "path": "pdfs/mount-rainier-national-park__camp-muir-route-with-get-your-bearings-map-jan18__50ef3625.pdf",
+      "size_bytes": 1218107,
+      "sha256": "f02da681661ca9098747d868cb13257c8041a6d8bd9fe43a5e59b4bee42d7fa9",
+      "source_url": "https://www.nps.gov/mora/planyourvisit/upload/Camp-Muir-Route-with-Get-Your-Bearings-map-Jan18.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "5f7cdc2e3abe",
+      "park": "Mount Rainier National Park",
+      "states": [
+        "WA"
+      ],
+      "title": "2020 Sunrise Area Trails Access",
+      "filename": "mount-rainier-national-park__2020-sunrise-area-trails_access__7a1ed73b.pdf",
+      "path": "pdfs/mount-rainier-national-park__2020-sunrise-area-trails_access__7a1ed73b.pdf",
+      "size_bytes": 610624,
+      "sha256": "3e780b281952426948996ae7747bdf1dc7b7bc5f90e63adc095f9237a0db5008",
+      "source_url": "https://www.nps.gov/mora/planyourvisit/upload/2020-Sunrise-Area-Trails_access.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "358bd53b6c8c",
+      "park": "Mount Rainier National Park",
+      "states": [
+        "WA"
+      ],
+      "title": "Ohanapecosh Area Trails Closures April2025 508",
+      "filename": "mount-rainier-national-park__ohanapecosh-area-trails_closures_april2025_508__baa17adb.pdf",
+      "path": "pdfs/mount-rainier-national-park__ohanapecosh-area-trails_closures_april2025_508__baa17adb.pdf",
+      "size_bytes": 568725,
+      "sha256": "3393c94492ef24a6f9d9f732614d7b9d8fb41fbdd3a334e0aa3e16141df496b2",
+      "source_url": "https://www.nps.gov/mora/planyourvisit/upload/Ohanapecosh-Area-Trails_Closures_April2025_508.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "c118410c15c8",
+      "park": "Mount Rainier National Park",
+      "states": [
+        "WA"
+      ],
+      "title": "2020 Carbon River Mowich Area Trails 508",
+      "filename": "mount-rainier-national-park__2020-carbon-river_mowich-area-trails_508__41a46448.pdf",
+      "path": "pdfs/mount-rainier-national-park__2020-carbon-river_mowich-area-trails_508__41a46448.pdf",
+      "size_bytes": 913147,
+      "sha256": "c7a925c5b00f0b58b0d66174231008b129acd91755c90e67320134ac916d5076",
+      "source_url": "https://www.nps.gov/mora/planyourvisit/upload/2020-Carbon-River_Mowich-Area-Trails_508.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "253c87c0dcba",
+      "park": "New River Gorge National Park and Preserve",
+      "states": [
+        "WV"
+      ],
+      "title": "New River Guide Accessible 1",
+      "filename": "new-river-gorge-national-park-and-preserve__new-river-guide_accessible_1__4a0758da.pdf",
+      "path": "pdfs/new-river-gorge-national-park-and-preserve__new-river-guide_accessible_1__4a0758da.pdf",
+      "size_bytes": 0,
+      "sha256": "",
+      "source_url": "https://www.nps.gov/neri/planyourvisit/upload/New-River-Guide_Accessible_1.pdf",
+      "download_ok": false
+    },
+    {
+      "id": "5ecf2f7d9fdd",
+      "park": "Pinnacles National Park",
+      "states": [
+        "CA"
+      ],
+      "title": "2019 Map Update Draft 2",
+      "filename": "pinnacles-national-park__2019-map-update-draft-2__ac192c7f.pdf",
+      "path": "pdfs/pinnacles-national-park__2019-map-update-draft-2__ac192c7f.pdf",
+      "size_bytes": 595119,
+      "sha256": "2e0277c0935b531af1f120760c92b106755c08894870e81da7d28292f579e0a5",
+      "source_url": "https://www.nps.gov/pinn/planyourvisit/upload/2019-map-update-DRAFT-2.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "557e5b7ef38e",
+      "park": "Mount Rainier National Park",
+      "states": [
+        "WA"
+      ],
+      "title": "Wilderness Trip Planner 2022 W Map Final 508",
+      "filename": "mount-rainier-national-park__wilderness-trip-planner-2022-wmap-final_508__5ea86282.pdf",
+      "path": "pdfs/mount-rainier-national-park__wilderness-trip-planner-2022-wmap-final_508__5ea86282.pdf",
+      "size_bytes": 4756604,
+      "sha256": "32d67d9bca5b48bb03e40130e3b426a3b172edf08d339f16ab2b2a0cc307515d",
+      "source_url": "https://www.nps.gov/mora/planyourvisit/upload/Wilderness-Trip-Planner-2022-wMap-FINAL_508.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "9b6d73baec1a",
+      "park": "Pinnacles National Park",
+      "states": [
+        "CA"
+      ],
+      "title": "2019 Map Update Draft Cropped2",
+      "filename": "pinnacles-national-park__2019-map-update-draft-cropped2__f1f6f688.pdf",
+      "path": "pdfs/pinnacles-national-park__2019-map-update-draft-cropped2__f1f6f688.pdf",
+      "size_bytes": 691213,
+      "sha256": "96849d03b605a42c7988a3b4d5b9a0c72c425435c945e50bb2c409dcbe6d7620",
+      "source_url": "https://www.nps.gov/pinn/planyourvisit/upload/2019-map-update-DRAFT-CROPPED2.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "2d9c6f8fe6f7",
+      "park": "North Cascades National Park",
+      "states": [
+        "WA"
+      ],
+      "title": "Ross Lake Trip Planner For Website 508",
+      "filename": "north-cascades-national-park__ross_lake_trip_planner_for_website_508__ba3c6b11.pdf",
+      "path": "pdfs/north-cascades-national-park__ross_lake_trip_planner_for_website_508__ba3c6b11.pdf",
+      "size_bytes": 7264799,
+      "sha256": "a4e12efc8d11e5cedca2890b277abaa5d94ebba2c8abeb1415e28526796d8457",
+      "source_url": "https://www.nps.gov/noca/planyourvisit/upload/Ross_Lake_Trip_Planner_for_Website_508.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "05275e56e220",
+      "park": "Redwood National and State Parks",
+      "states": [
+        "CA"
+      ],
+      "title": "Jedediah Smith Redwoods SP Camp Map2019",
+      "filename": "redwood-national-and-state-parks__jedediahsmithredwoodssp_campmap2019__14e2ed02.pdf",
+      "path": "pdfs/redwood-national-and-state-parks__jedediahsmithredwoodssp_campmap2019__14e2ed02.pdf",
+      "size_bytes": 190142,
+      "sha256": "bd643c6bacbb0bb83415038ac7acfaed6f405769912ca3da1a32e9529b19235b",
+      "source_url": "https://www.parks.ca.gov/pages/413/files/JedediahSmithRedwoodsSP_CampMap2019.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "ceea8627a7b9",
+      "park": "Redwood National and State Parks",
+      "states": [
+        "CA"
+      ],
+      "title": "Prairie Creek Elk Camp Map061516",
+      "filename": "redwood-national-and-state-parks__prairiecreekelkcampmap061516__d48cff81.pdf",
+      "path": "pdfs/redwood-national-and-state-parks__prairiecreekelkcampmap061516__d48cff81.pdf",
+      "size_bytes": 184634,
+      "sha256": "d76a9d635499e7585210159ba0a823464b2fb8af87d1ea2623863975ef048e3b",
+      "source_url": "https://www.parks.ca.gov/pages/415/files/PrairieCreekElkCampMap061516.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "882073d4f554",
+      "park": "Rocky Mountain National Park",
+      "states": [
+        "CO"
+      ],
+      "title": "ROMO Unigrid Brochure 2022.pdf')",
+      "filename": "rocky-mountain-national-park__romo_unigridbrochure_2022pdf__c0cc7cdc.pdf",
+      "path": "pdfs/rocky-mountain-national-park__romo_unigridbrochure_2022pdf__c0cc7cdc.pdf",
+      "size_bytes": 0,
+      "sha256": "",
+      "source_url": "https://www.nps.gov/romo/planyourvisit/javascript:HandleLink('cpe_0_0','CPNEWWIN:_blank^@CP___PAGEID=5343116,/romo/planyourvisit/upload/ROMO_UnigridBrochure_2022.pdf');",
+      "download_ok": false
+    },
+    {
+      "id": "eccc63a2b26e",
+      "park": "Redwood National and State Parks",
+      "states": [
+        "CA"
+      ],
+      "title": "Horse Trails SB 2021 508 2",
+      "filename": "redwood-national-and-state-parks__horsetrails_sb_2021-508-2__f0716776.pdf",
+      "path": "pdfs/redwood-national-and-state-parks__horsetrails_sb_2021-508-2__f0716776.pdf",
+      "size_bytes": 5306383,
+      "sha256": "90267ae9e3bfbc2382309feb473f81f8ad9f7b0de46016dd193cdb075b55f212",
+      "source_url": "https://www.nps.gov/redw/planyourvisit/upload/HorseTrails_SB_2021-508-2.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "5a87e3fe16cd",
+      "park": "Sequoia National Park",
+      "states": [
+        "CA"
+      ],
+      "title": "2021 Campground Map Buckeye 508",
+      "filename": "sequoia-national-park__2021_campground_map_buckeye-508__b0195a69.pdf",
+      "path": "pdfs/sequoia-national-park__2021_campground_map_buckeye-508__b0195a69.pdf",
+      "size_bytes": 35574,
+      "sha256": "9bbc5c56912c6e6e80f87e384f693ea0205f871d6dde88c251ac97b87407a631",
+      "source_url": "https://www.nps.gov/seki/planyourvisit/upload/2021_Campground_map_Buckeye-508.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "ac89049e0ff7",
+      "park": "Redwood National and State Parks",
+      "states": [
+        "CA"
+      ],
+      "title": "Gold Bluffs Beach Camp Map Final123009",
+      "filename": "redwood-national-and-state-parks__goldbluffsbeachcampmapfinal123009__dabb5d58.pdf",
+      "path": "pdfs/redwood-national-and-state-parks__goldbluffsbeachcampmapfinal123009__dabb5d58.pdf",
+      "size_bytes": 222654,
+      "sha256": "3f4bcd0c121d5b5aad92dd993d9eebe64556358a1437964c512a9c77fc093f29",
+      "source_url": "https://www.parks.ca.gov/pages/415/files/GoldBluffsBeachCampMapFinal123009.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "3e97ab73c091",
+      "park": "Sequoia National Park",
+      "states": [
+        "CA"
+      ],
+      "title": "2021 Campground Map Cold Springs 508",
+      "filename": "sequoia-national-park__2021_campground_map_cold_springs-508__bb4f1ce5.pdf",
+      "path": "pdfs/sequoia-national-park__2021_campground_map_cold_springs-508__bb4f1ce5.pdf",
+      "size_bytes": 31564,
+      "sha256": "91ae136e60cd24f33d3abdbc80c16660b636da09f54407f45fbd5a04cefcaca6",
+      "source_url": "https://www.nps.gov/seki/planyourvisit/upload/2021_Campground_map_Cold_Springs-508.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "5b60b2046c83",
+      "park": "Sequoia National Park",
+      "states": [
+        "CA"
+      ],
+      "title": "2021 Campground Map Crystal Springs 508",
+      "filename": "sequoia-national-park__2021_campground_map_crystal_springs-508__724aa4e3.pdf",
+      "path": "pdfs/sequoia-national-park__2021_campground_map_crystal_springs-508__724aa4e3.pdf",
+      "size_bytes": 41559,
+      "sha256": "042e08225e78d6f13950eb6eb249d878f1cfd2ccfe4b6670ed66fdf27a77c7ec",
+      "source_url": "https://www.nps.gov/seki/planyourvisit/upload/2021_Campground_map_Crystal_Springs-508.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "20176fe6b2b9",
+      "park": "Sequoia National Park",
+      "states": [
+        "CA"
+      ],
+      "title": "Dorst Creek Campground 20130607 Ewilliams",
+      "filename": "sequoia-national-park__dorstcreekcampground_20130607_ewilliams__f8f7b8eb.pdf",
+      "path": "pdfs/sequoia-national-park__dorstcreekcampground_20130607_ewilliams__f8f7b8eb.pdf",
+      "size_bytes": 537402,
+      "sha256": "c70b110a4d2b9a4495b6a37f66ea14212eb06b98bb6a6870bf05570f93759d3e",
+      "source_url": "https://www.nps.gov/seki/planyourvisit/upload/DorstCreekCampground_20130607_ewilliams.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "36b0143f5b85",
+      "park": "Sequoia National Park",
+      "states": [
+        "CA"
+      ],
+      "title": "2021 Campground Map Sentinel 508",
+      "filename": "sequoia-national-park__2021_campground_map_sentinel-508__6daf420f.pdf",
+      "path": "pdfs/sequoia-national-park__2021_campground_map_sentinel-508__6daf420f.pdf",
+      "size_bytes": 312400,
+      "sha256": "9419d42468eb6aa68297f8c7ad8cc02b6c5b952137b9a4e250da51f97dcf7d47",
+      "source_url": "https://www.nps.gov/seki/planyourvisit/upload/2021_Campground_map_Sentinel-508.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "1fbe5d1bdae4",
+      "park": "Shenandoah National Park",
+      "states": [
+        "VA"
+      ],
+      "title": "Bearfence Road Trail",
+      "filename": "shenandoah-national-park__bearfence_roadtrail__aca7ff93.pdf",
+      "path": "pdfs/shenandoah-national-park__bearfence_roadtrail__aca7ff93.pdf",
+      "size_bytes": 419782,
+      "sha256": "248be52953f5cc0164e863f00c3212dddda92ca86c8ac1de1a29955bbd682f53",
+      "source_url": "https://www.nps.gov/shen/planyourvisit/upload/Bearfence_RoadTrail.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "ac451f347619",
+      "park": "Shenandoah National Park",
+      "states": [
+        "VA"
+      ],
+      "title": "Big Meadows Road Trail",
+      "filename": "shenandoah-national-park__bigmeadows_roadtrail__c299d580.pdf",
+      "path": "pdfs/shenandoah-national-park__bigmeadows_roadtrail__c299d580.pdf",
+      "size_bytes": 725224,
+      "sha256": "433465ee394fd5129bc79e141d8c5d45062f2f9ab2949cbef56449e693653cbc",
+      "source_url": "https://www.nps.gov/shen/planyourvisit/upload/BigMeadows_RoadTrail.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "b2a5faac75ea",
+      "park": "Shenandoah National Park",
+      "states": [
+        "VA"
+      ],
+      "title": "Dickey Ridge Area Road Trail",
+      "filename": "shenandoah-national-park__dickeyridgearea_roadtrail__741cd1d3.pdf",
+      "path": "pdfs/shenandoah-national-park__dickeyridgearea_roadtrail__741cd1d3.pdf",
+      "size_bytes": 500934,
+      "sha256": "ddc36f91889fc48a655421122b8ad33f0b68de7234884e0855e747fecf414432",
+      "source_url": "https://www.nps.gov/shen/planyourvisit/upload/DickeyRidgeArea_RoadTrail.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "d85b1a886c23",
+      "park": "Redwood National and State Parks",
+      "states": [
+        "CA"
+      ],
+      "title": "Del Norte Redwoods SP Camp Map2019",
+      "filename": "redwood-national-and-state-parks__delnorteredwoodssp_campmap2019__d5cf243f.pdf",
+      "path": "pdfs/redwood-national-and-state-parks__delnorteredwoodssp_campmap2019__d5cf243f.pdf",
+      "size_bytes": 292062,
+      "sha256": "0b404fc75d5e3ba3ba7b6a455e4766254842b68682a0ae0f6834536d0ef21386",
+      "source_url": "https://www.parks.ca.gov/pages/414/files/DelNorteRedwoodsSP_CampMap2019.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "d0c23a6e6150",
+      "park": "Shenandoah National Park",
+      "states": [
+        "VA"
+      ],
+      "title": "Compton Gap Road Trail",
+      "filename": "shenandoah-national-park__comptongap_roadtrail__27897f31.pdf",
+      "path": "pdfs/shenandoah-national-park__comptongap_roadtrail__27897f31.pdf",
+      "size_bytes": 642459,
+      "sha256": "ab4cb992b0aca46947d11aa200189f08b44dbc30883ac99cf919546290d35eff",
+      "source_url": "https://www.nps.gov/shen/planyourvisit/upload/ComptonGap_RoadTrail.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "71ea3b0fd1c2",
+      "park": "Shenandoah National Park",
+      "states": [
+        "VA"
+      ],
+      "title": "Keyser Run Road Trail",
+      "filename": "shenandoah-national-park__keyserrun_roadtrail__b579460e.pdf",
+      "path": "pdfs/shenandoah-national-park__keyserrun_roadtrail__b579460e.pdf",
+      "size_bytes": 671452,
+      "sha256": "6e43ef942d047bf481b4c08e3b41148c30edf3625f09ccd4cba43d0b34e4c368",
+      "source_url": "https://www.nps.gov/shen/planyourvisit/upload/KeyserRun_RoadTrail.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "05c934f5a397",
+      "park": "Shenandoah National Park",
+      "states": [
+        "VA"
+      ],
+      "title": "Hawksbill Road Trail",
+      "filename": "shenandoah-national-park__hawksbill_roadtrail__dda1346c.pdf",
+      "path": "pdfs/shenandoah-national-park__hawksbill_roadtrail__dda1346c.pdf",
+      "size_bytes": 528976,
+      "sha256": "89fda84d8760978a89f827b96e650cebed0377e9fee45861c1947fa141bf8db5",
+      "source_url": "https://www.nps.gov/shen/planyourvisit/upload/Hawksbill_RoadTrail.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "61c526a19302",
+      "park": "Shenandoah National Park",
+      "states": [
+        "VA"
+      ],
+      "title": "Old Rag Road Trail",
+      "filename": "shenandoah-national-park__oldrag_roadtrail__e1e2ffc8.pdf",
+      "path": "pdfs/shenandoah-national-park__oldrag_roadtrail__e1e2ffc8.pdf",
+      "size_bytes": 243663,
+      "sha256": "fdf72bc5f8aa28bb3c6bc8207c3cfa5fd7d90d7716098bff21a3c10ed412d287",
+      "source_url": "https://www.nps.gov/shen/planyourvisit/upload/OldRag_RoadTrail.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "d572534250e1",
+      "park": "Shenandoah National Park",
+      "states": [
+        "VA"
+      ],
+      "title": "2025 Loft Mountain Road Trail 508",
+      "filename": "shenandoah-national-park__2025_loftmountain_roadtrail_508__3f0e1f3f.pdf",
+      "path": "pdfs/shenandoah-national-park__2025_loftmountain_roadtrail_508__3f0e1f3f.pdf",
+      "size_bytes": 312064,
+      "sha256": "2371900e04b4bc34e275da4135d5a34e0509418013e2820a0ab02fe79b02314d",
+      "source_url": "https://www.nps.gov/shen/planyourvisit/upload/2025_LoftMountain_RoadTrail_508.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "2b33a41ae7b9",
+      "park": "Rocky Mountain National Park",
+      "states": [
+        "CO"
+      ],
+      "title": "Moraine Park Campground Map 8 5x14",
+      "filename": "rocky-mountain-national-park__moraine-park-campground-map_8-5x14__c013ab58.pdf",
+      "path": "pdfs/rocky-mountain-national-park__moraine-park-campground-map_8-5x14__c013ab58.pdf",
+      "size_bytes": 4970103,
+      "sha256": "f2c0dfbebb1e5153874fe78bb90b0b7a43f76e4625549a55dbfc9e6cfff7fcd0",
+      "source_url": "https://www.nps.gov/romo/planyourvisit/upload/Moraine-Park-Campground-Map_8-5x14.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "02f93ce9cf95",
+      "park": "Shenandoah National Park",
+      "states": [
+        "VA"
+      ],
+      "title": "Riprap Road Trail",
+      "filename": "shenandoah-national-park__riprap_roadtrail__b217c5c9.pdf",
+      "path": "pdfs/shenandoah-national-park__riprap_roadtrail__b217c5c9.pdf",
+      "size_bytes": 640696,
+      "sha256": "601facc9e7daf8857c4db83bbffec88df451b61b718995e21b5d88f88ffe063c",
+      "source_url": "https://www.nps.gov/shen/planyourvisit/upload/Riprap_RoadTrail.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "104fcda53718",
+      "park": "Shenandoah National Park",
+      "states": [
+        "VA"
+      ],
+      "title": "Rapidan Camp Road Trail",
+      "filename": "shenandoah-national-park__rapidancamp_roadtrail__292633e0.pdf",
+      "path": "pdfs/shenandoah-national-park__rapidancamp_roadtrail__292633e0.pdf",
+      "size_bytes": 769620,
+      "sha256": "a98ff26032de59d6673796a831b761ea0330fab68cef51241826805c7d528cae",
+      "source_url": "https://www.nps.gov/shen/planyourvisit/upload/RapidanCamp_RoadTrail.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "568ffe3d4969",
+      "park": "Shenandoah National Park",
+      "states": [
+        "VA"
+      ],
+      "title": "2025 Skyland Road Trail 508",
+      "filename": "shenandoah-national-park__2025_skyland_roadtrail_508__9346be36.pdf",
+      "path": "pdfs/shenandoah-national-park__2025_skyland_roadtrail_508__9346be36.pdf",
+      "size_bytes": 611151,
+      "sha256": "ab641639515a8e8f91932887bca1632fe7b15adad87698e579b1b806f763fbd7",
+      "source_url": "https://www.nps.gov/shen/planyourvisit/upload/2025_Skyland_RoadTrail_508.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "cb08835da132",
+      "park": "Shenandoah National Park",
+      "states": [
+        "VA"
+      ],
+      "title": "Mathews Arm Road Trail",
+      "filename": "shenandoah-national-park__mathewsarm_roadtrail__b7a19f49.pdf",
+      "path": "pdfs/shenandoah-national-park__mathewsarm_roadtrail__b7a19f49.pdf",
+      "size_bytes": 691738,
+      "sha256": "2688dd5c57c182b80c2f62217d1a8e76b253295bff8d6e960f28733ebd7ee010",
+      "source_url": "https://www.nps.gov/shen/planyourvisit/upload/MathewsArm_RoadTrail.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "69e30885dc50",
+      "park": "Shenandoah National Park",
+      "states": [
+        "VA"
+      ],
+      "title": "2025 South River Road Trail 508",
+      "filename": "shenandoah-national-park__2025_southriver_roadtrail_508__22045df8.pdf",
+      "path": "pdfs/shenandoah-national-park__2025_southriver_roadtrail_508__22045df8.pdf",
+      "size_bytes": 753449,
+      "sha256": "7d3aa52079b697b973cb9fde60ab9a807233436a149489a81f4d1cd72d049a8f",
+      "source_url": "https://www.nps.gov/shen/planyourvisit/upload/2025_SouthRiver_RoadTrail_508.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "aecbfb01437b",
+      "park": "Shenandoah National Park",
+      "states": [
+        "VA"
+      ],
+      "title": "Whiteoak Canyon Road Trail 2025 508",
+      "filename": "shenandoah-national-park__whiteoakcanyon_roadtrail-2025_508__ab222f10.pdf",
+      "path": "pdfs/shenandoah-national-park__whiteoakcanyon_roadtrail-2025_508__ab222f10.pdf",
+      "size_bytes": 262072,
+      "sha256": "f85af18dfab60ee28cfc284a162e50baa3abbac7f729c0c94aeb224b513f0ec5",
+      "source_url": "https://www.nps.gov/shen/planyourvisit/upload/WhiteoakCanyon_RoadTrail-2025_508.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "b1f184e4c635",
+      "park": "Shenandoah National Park",
+      "states": [
+        "VA"
+      ],
+      "title": "Thornton Gap Road Trail",
+      "filename": "shenandoah-national-park__thorntongap_roadtrail__5c6d02f8.pdf",
+      "path": "pdfs/shenandoah-national-park__thorntongap_roadtrail__5c6d02f8.pdf",
+      "size_bytes": 706527,
+      "sha256": "fdba8ac6c779c40f492307c71159f03ec8b6ad0b5503bdb1dc2a4ff5d4f798cd",
+      "source_url": "https://www.nps.gov/shen/planyourvisit/upload/ThorntonGap_RoadTrail.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "6259c8183c9a",
+      "park": "Shenandoah National Park",
+      "states": [
+        "VA"
+      ],
+      "title": "Park Brochure Arabic",
+      "filename": "shenandoah-national-park__park-brochure-arabic__f6168bff.pdf",
+      "path": "pdfs/shenandoah-national-park__park-brochure-arabic__f6168bff.pdf",
+      "size_bytes": 0,
+      "sha256": "",
+      "source_url": "https://www.nps.gov/shen/planyourvisit/upload/Park-Brochure-Arabic.pdf",
+      "download_ok": false
+    },
+    {
+      "id": "b647a16e5e6f",
+      "park": "Shenandoah National Park",
+      "states": [
+        "VA"
+      ],
+      "title": "Park Brochure French",
+      "filename": "shenandoah-national-park__park-brochure-french__71d9bda8.pdf",
+      "path": "pdfs/shenandoah-national-park__park-brochure-french__71d9bda8.pdf",
+      "size_bytes": 0,
+      "sha256": "",
+      "source_url": "https://www.nps.gov/shen/planyourvisit/upload/Park-Brochure-French.pdf",
+      "download_ok": false
+    },
+    {
+      "id": "4d810f9f1750",
+      "park": "Shenandoah National Park",
+      "states": [
+        "VA"
+      ],
+      "title": "Mathews Arm Campground",
+      "filename": "shenandoah-national-park__mathewsarmcampground__9857ad2f.pdf",
+      "path": "pdfs/shenandoah-national-park__mathewsarmcampground__9857ad2f.pdf",
+      "size_bytes": 235522,
+      "sha256": "987e82c6c610b427c164a927a6c492880c9bbfcba66d76d22740c0ccc4ed7d75",
+      "source_url": "https://www.nps.gov/shen/planyourvisit/upload/MathewsArmCampground.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "0978b1998cf8",
+      "park": "Shenandoah National Park",
+      "states": [
+        "VA"
+      ],
+      "title": "Park Brochure Chinese",
+      "filename": "shenandoah-national-park__park-brochure-chinese__5f817d68.pdf",
+      "path": "pdfs/shenandoah-national-park__park-brochure-chinese__5f817d68.pdf",
+      "size_bytes": 20519378,
+      "sha256": "8ace1d3bd0a4eb33ff34c39f17e280d2d69c9012b9ae5dca88fa653425f6591d",
+      "source_url": "https://www.nps.gov/shen/planyourvisit/upload/Park-Brochure-Chinese.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "3559ee39c86e",
+      "park": "Shenandoah National Park",
+      "states": [
+        "VA"
+      ],
+      "title": "Lewis Mountain Campground Map",
+      "filename": "shenandoah-national-park__lewismountain_campgroundmap__754495bd.pdf",
+      "path": "pdfs/shenandoah-national-park__lewismountain_campgroundmap__754495bd.pdf",
+      "size_bytes": 215859,
+      "sha256": "2d05dff77134081ce808d1f319a1c3d5e813d5c9327a6a64a140a1189e14caa8",
+      "source_url": "https://www.nps.gov/shen/planyourvisit/upload/LewisMountain_CampgroundMap.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "6aaeee4aa554",
+      "park": "Shenandoah National Park",
+      "states": [
+        "VA"
+      ],
+      "title": "Loft Mountain Campground Map 508",
+      "filename": "shenandoah-national-park__loftmountain_campgroundmap_508__ac0d836f.pdf",
+      "path": "pdfs/shenandoah-national-park__loftmountain_campgroundmap_508__ac0d836f.pdf",
+      "size_bytes": 487940,
+      "sha256": "35203716042900ae8bba5d3be109d6c7703195c01e341e9a014a3415becdd180",
+      "source_url": "https://www.nps.gov/shen/planyourvisit/upload/LoftMountain_CampgroundMap_508.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "7465ed72b881",
+      "park": "Shenandoah National Park",
+      "states": [
+        "VA"
+      ],
+      "title": "Big Meadows Campground Map Web",
+      "filename": "shenandoah-national-park__bigmeadows_campgroundmap_web__074b2f80.pdf",
+      "path": "pdfs/shenandoah-national-park__bigmeadows_campgroundmap_web__074b2f80.pdf",
+      "size_bytes": 408739,
+      "sha256": "2494d778f9d88f23814c729cb61b1987087376825e788a71eae3e8251ff4c403",
+      "source_url": "https://www.nps.gov/shen/planyourvisit/upload/BigMeadows_CampgroundMap_web.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "4dc78c5b552d",
+      "park": "White Sands National Park",
+      "states": [
+        "NM"
+      ],
+      "title": "WHSA Unigrid 2022",
+      "filename": "white-sands-national-park__whsa_unigrid_2022__bc72ea37.pdf",
+      "path": "pdfs/white-sands-national-park__whsa_unigrid_2022__bc72ea37.pdf",
+      "size_bytes": 5867078,
+      "sha256": "c2129026d454fd650e613885a49bd24c428c1c67dc3f4b8a6d6a4e0e39c0f68c",
+      "source_url": "https://www.nps.gov/whsa/planyourvisit/upload/WHSA_Unigrid_2022.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "f118b22bb55e",
+      "park": "Shenandoah National Park",
+      "states": [
+        "VA"
+      ],
+      "title": "Park Brochure Farsi",
+      "filename": "shenandoah-national-park__park-brochure-farsi__5c25fe1a.pdf",
+      "path": "pdfs/shenandoah-national-park__park-brochure-farsi__5c25fe1a.pdf",
+      "size_bytes": 19925676,
+      "sha256": "95bb507c6860b460164a174c272f5ee918fb0601ddb5f7d47657085815cc1c74",
+      "source_url": "https://www.nps.gov/shen/planyourvisit/upload/Park-Brochure-Farsi.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "da1fd699b60b",
+      "park": "Wrangell–St. Elias National Park and Preserve",
+      "states": [
+        "AK"
+      ],
+      "title": "Kennecott Unigrid Brochure 508",
+      "filename": "wrangell-st-elias-national-park-and-preserve__kennecott-unigrid-brochure-508__d8748f1e.pdf",
+      "path": "pdfs/wrangell-st-elias-national-park-and-preserve__kennecott-unigrid-brochure-508__d8748f1e.pdf",
+      "size_bytes": 706327,
+      "sha256": "65bcd44ca9cb9fcdf25c92e30c357bb3bc3d6a3cece5aaadc23b8907470cbf2f",
+      "source_url": "https://www.nps.gov/wrst/planyourvisit/upload/Kennecott-Unigrid-Brochure-508.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "972209a40612",
+      "park": "Yellowstone National Park",
+      "states": [
+        "WY",
+        "MT",
+        "ID"
+      ],
+      "title": "YELL GRTE Tear Off Map 2023 Web",
+      "filename": "yellowstone-national-park__yell-grte-tear-off-map-2023-web__5d565ffe.pdf",
+      "path": "pdfs/yellowstone-national-park__yell-grte-tear-off-map-2023-web__5d565ffe.pdf",
+      "size_bytes": 2551010,
+      "sha256": "ab44c455985fad5f593049688a708fbf8ef50216f0928cd0a5af3e120a8c8624",
+      "source_url": "https://www.nps.gov/yell/planyourvisit/upload/YELL-GRTE-Tear-Off-Map-2023-web.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "1881de0e979f",
+      "park": "Wrangell–St. Elias National Park and Preserve",
+      "states": [
+        "AK"
+      ],
+      "title": "LAND Status MAP",
+      "filename": "wrangell-st-elias-national-park-and-preserve__land-status-map__684bf30f.pdf",
+      "path": "pdfs/wrangell-st-elias-national-park-and-preserve__land-status-map__684bf30f.pdf",
+      "size_bytes": 11324987,
+      "sha256": "cda7eff7bdd93bfeda57fe0e3b2916c49010f9f761d26ef9bbe2d564828eb5aa",
+      "source_url": "https://www.nps.gov/wrst/learn/management/upload/LAND-STATUS-MAP.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "77d7a371bc95",
+      "park": "Zion National Park",
+      "states": [
+        "UT"
+      ],
+      "title": "Zion Area Map Website",
+      "filename": "zion-national-park__zion-area-map-website__dbad30af.pdf",
+      "path": "pdfs/zion-national-park__zion-area-map-website__dbad30af.pdf",
+      "size_bytes": 540299,
+      "sha256": "5637d10210589d015e6b2c46d2bf15dfe73fb69a77e9f5574d67a6c7a7c19b6a",
+      "source_url": "https://www.nps.gov/zion/planyourvisit/upload/Zion-Area-Map-Website.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "08aece06ca7e",
+      "park": "Zion National Park",
+      "states": [
+        "UT"
+      ],
+      "title": "Map Page",
+      "filename": "zion-national-park__map-page__64591716.pdf",
+      "path": "pdfs/zion-national-park__map-page__64591716.pdf",
+      "size_bytes": 9265307,
+      "sha256": "e864945890fb02eea72867030a5a8999c387f4cc911f67ff7bb4f7ae811ca87b",
+      "source_url": "https://www.nps.gov/zion/planyourvisit/upload/Map-Page.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "14c5f3f8c142",
+      "park": "Yosemite National Park",
+      "states": [
+        "CA"
+      ],
+      "title": "Yosemitecampgroundmap2013",
+      "filename": "yosemite-national-park__yosemitecampgroundmap2013__8135ba6e.pdf",
+      "path": "pdfs/yosemite-national-park__yosemitecampgroundmap2013__8135ba6e.pdf",
+      "size_bytes": 2484405,
+      "sha256": "971a4651bc81a7854727c56ab7e2d9dca9b420b989a638126c39a7611de9d817",
+      "source_url": "https://www.nps.gov/yose/planyourvisit/upload/yosemitecampgroundmap2013.pdf",
+      "download_ok": true
+    },
+    {
+      "id": "28eb483722cb",
+      "park": "Shenandoah National Park",
+      "states": [
+        "VA"
+      ],
+      "title": "Park Brochure German",
+      "filename": "shenandoah-national-park__park-brochure-german__e3c54932.pdf",
+      "path": "pdfs/shenandoah-national-park__park-brochure-german__e3c54932.pdf",
+      "size_bytes": 13212823,
+      "sha256": "d8296b6f26767d750e8395eae60973ec4666d7db928c7845e282323116fefd79",
+      "source_url": "https://www.nps.gov/shen/planyourvisit/upload/Park-Brochure-German.pdf",
+      "download_ok": true
+    }
+  ]
+}

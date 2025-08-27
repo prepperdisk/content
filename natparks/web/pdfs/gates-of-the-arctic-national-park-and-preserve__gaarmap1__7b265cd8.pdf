@@ -1,0 +1,1070 @@
+<!doctype html> <html lang="en" class="no-js"> <!-- Content Copyright National Park Service -->
+<!-- JavaScript & DHTML Code Copyright &copy; 1998-2025, PaperThin, Inc. All Rights Reserved. --> <head> <meta content="IE=edge" http-equiv="X-UA-Compatible"> <title>Find a National Park Service Map - GIS, Cartography & Mapping (U.S. National Park Service)</title> <script>
+var jsDlgLoader = '/subjects/gisandmapping/loader.cfm';
+var jsSiteResourceLoader = '/cs-resources.cfm?r=';
+var jsSiteResourceSettings = {canCombine: false, canMinify: false};
+</script>
+<!-- beg (1) PrimaryResources -->
+<script src="/ADF/thirdParty/jquery/jquery-1.12.js"></script><script src="/commonspot/javascript/browser-all.js"></script>
+<!-- end (1) PrimaryResources -->
+<!-- beg (2) SecondaryResources -->
+<!-- end (2) SecondaryResources -->
+<!-- beg (3) StyleTags -->
+<link rel="stylesheet" href="/common/commonspot/templates/assets/css/commonspotRTE.css" type="text/css" />
+<!-- end (3) StyleTags -->
+<!-- beg (4) JavaScript -->
+<script>
+<!--
+var gMenuControlID = 0;
+var menus_included = 0;
+var jsSiteID = 1;
+var jsSubSiteID = 30754;
+var js_gvPageID = 7323739;
+var jsPageID = 7323739;
+var jsPageSetID = 0;
+var jsPageType = 0;
+var jsSiteSecurityCreateControls = 0;
+var jsShowRejectForApprover = 1;
+// -->
+</script><script>
+var jsDlgLoader = '/subjects/gisandmapping/loader.cfm';
+var jsSiteResourceLoader = '/cs-resources.cfm?r=';
+var jsSiteResourceSettings = {canCombine: false, canMinify: false};
+</script>
+<!-- end (4) JavaScript -->
+<!-- beg (5) CustomHead -->
+<!-- override SubjectSite from Subject Generic Page-->
+<meta charset="utf-8">
+<link href="/common/commonspot/templates/images/icons/favicon.ico" rel="shortcut icon">
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--[if gt IE 8]>
+<script src="/common/commonspot/templates/assets/js/app.early.min.js?v=20230112"></script>
+<link href="/common/commonspot/templates/assets/css/split-css/main.min.css?v=2rpz-n03cpj" media="screen, print" rel="stylesheet">
+<link href="/common/commonspot/templates/assets/css/split-css/main-min-blessed1.css" media="screen, print" rel="stylesheet">
+<![endif]-->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<script src="/common/commonspot/templates/assets/js/app.early.min.js?v=20230112"></script>
+<link href="/common/commonspot/templates/assets/css/split-css/main.min.css?v=2rpz-n03cpj" media="screen, print" rel="stylesheet">
+<link href="/common/commonspot/templates/assets/css/split-css/main-min-blessed1.css" media="screen, print" rel="stylesheet">
+<![endif]-->
+<!--[if !IE]> -->
+<script src="/common/commonspot/templates/assets/js/app.early.min.js?v=20230112"></script>
+<link href="/common/commonspot/templates/assets/css/main.min.css?v=20230112" media="screen, print" rel="stylesheet">
+<!-- <![endif]-->
+<link href='//fonts.googleapis.com/css?family=Open+Sans:700,600,400|Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+<link rel="manifest" href="/manifest.json" crossorigin="use-credentials" />
+<meta name="apple-itunes-app" content="app-id=1549226484, app-argument=https://apps.apple.com/us/app/national-park-service/id1549226484">
+<style>
+table#cs_idLayout2,
+table#cs_idLayout2 > tbody,
+table#cs_idLayout2 > tbody > tr,
+table#cs_idLayout2 > tbody > tr >  td
+{
+display: block;
+border-collapse:separate;
+}
+</style>
+<script src='/common/commonspot/templates/js/federated-analytics-uav1.js?ver=true&agency=DOI&subagency=NPS&exts=rtf,odt,ods,odp,brf&dclink=true&enhlink=true' id='_fed_an_ua_tag'></script>
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Find a National Park Service Map - GIS, Cartography & Mapping (U.S. National Park Service)" />
+<meta property="og:url" content="https://www.nps.gov/subjects/gisandmapping/nps-maps.htm" />
+<!-- end (5) CustomHead -->
+<!-- beg (6) TertiaryResources -->
+<meta property="og:image" content="https://www.nps.gov/subjects/gisandmapping/images/US-map_1.png" /><meta property="og:image:height" content="433" /><meta property="og:image:width" content="600" /><meta property="og:image:alt" content="Map of US states and territories" />
+<!-- end (6) TertiaryResources -->
+<!-- beg (7) authormode_inlinestyles -->
+<link rel="stylesheet" type="text/css" href="/commonspot/commonspot.css" id="cs_maincss">
+<!-- end (7) authormode_inlinestyles -->
+</head><body class="SubjectSite"><span role="navigation" aria-label="Top of page" id="__topdoc__"></span>
+<section
+class="usa-banner"
+aria-label="Official website of the United States government"
+>
+<div class="usa-accordion">
+<header class="usa-banner__header">
+<div class="usa-banner__inner">
+<div class="grid-col-auto">
+<img
+aria-hidden="true"
+class="usa-banner__header-flag"
+src="/common/commonspot/templates/assets/icon/us_flag_small.png"
+alt=""
+/>
+</div>
+<div class="grid-col-fill tablet:grid-col-auto" aria-hidden="true">
+<p class="usa-banner__header-text">
+An official website of the United States government
+</p>
+<p class="usa-banner__header-action">Here's how you know</p>
+</div>
+<button
+type="button"
+class="usa-accordion__button usa-banner__button collapsed"
+aria-expanded="false"
+aria-controls="gov-banner-default"
+data-bs-toggle="collapse"
+data-bs-target="#gov-banner-default"
+>
+<span class="usa-banner__button-text">Here's how you know</span>
+</button>
+</div>
+</header>
+<div
+class="usa-banner__content usa-accordion__content collapse"
+id="gov-banner-default"
+>
+<div class="grid-row grid-gap-lg">
+<div class="usa-banner__guidance tablet:grid-col-6">
+<img
+class="usa-banner__icon usa-media-block__img"
+src="/common/commonspot/templates/assets/icon/icon-dot-gov.svg"
+role="img"
+alt=""
+aria-hidden="true"
+/>
+<div class="usa-media-block__body">
+<p>
+<strong>Official websites use .gov</strong><br />A
+<strong>.gov</strong> website belongs to an official government
+organization in the United States.
+</p>
+</div>
+</div>
+<div class="usa-banner__guidance tablet:grid-col-6">
+<img
+class="usa-banner__icon usa-media-block__img"
+src="/common/commonspot/templates/assets/icon/icon-https.svg"
+role="img"
+alt=""
+aria-hidden="true"
+/>
+<div class="usa-media-block__body">
+<p>
+<strong>Secure .gov websites use HTTPS</strong><br />A
+<strong>lock</strong> (
+<span class="icon-lock"
+><svg
+xmlns="http://www.w3.org/2000/svg"
+width="52"
+height="64"
+viewBox="0 0 52 64"
+class="usa-banner__lock-image"
+role="img"
+aria-labelledby="banner-lock-description-default"
+focusable="false"
+>
+<title id="banner-lock-title-default">Lock</title>
+<desc id="banner-lock-description-default">Locked padlock icon</desc>
+<path
+fill="#000000"
+fill-rule="evenodd"
+d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z"
+/>
+</svg> </span
+>) or <strong>https://</strong> means you've safely connected to
+the .gov website. Share sensitive information only on official,
+secure websites.
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!--googleoff: index-->
+<div tabindex="-1" id="beforeSkipLinks" ></div>
+<div class="skip-links" aria-label="short-cut links" role="navigation">
+<ul>
+<li><a href="#GlobalNav-toggle" aria-label="Skip to global NPS navigation">Skip to global NPS navigation</a></li>
+<li><a href="#main" aria-label="Skip to the main content">Skip to the main content</a></li>
+<li><a href="#GlobalFooter" aria-label="Skip to the footer section">Skip to the footer section</a></li>
+</ul>
+</div>
+<!--googleon: index-->
+<!--googleoff: index-->
+<div class="PromoBanner"></div>
+<!--googleon: index-->
+<!--googleoff: index-->
+<div class="GlobalHeader" role="banner">
+<div class="GlobalHeader__Navbar container">
+<a class="GlobalHeader__Branding me-auto link-white" href="/">
+<img src="/theme/assets/dist/images/branding/logo.png"
+alt=""
+width="80"
+height="106"
+class="GlobalHeader__Branding__Arrowhead img-fluid">
+<span class="GlobalHeader__Branding__Text">
+National Park Service
+</span>
+</a>
+<a href="#GlobalFooterSearchInput"
+class="GlobalHeader__FooterSearchLink js-scrollTo link-white">
+<i class="fa fa-search"></i>
+<span class="visually-hidden">Search</span>
+</a>
+<form id="GlobalHeaderSearch"
+class="GlobalHeader__Search"
+action="/search/"
+method="GET"
+role="search">
+<button type="button"
+data-bs-toggle="collapse"
+data-bs-target="#GlobalHeaderSearchCollapse"
+aria-expanded="false"
+aria-controls="GlobalHeaderSearchCollapse">
+<i class="fa fa-search"></i>
+Search
+</button>
+<div id="GlobalHeaderSearchCollapse"
+class="collapse collapse-horizontal"
+role="presentation">
+<div>
+<input class="form-control me-2"
+type="text"
+autocomplete="off"
+name="query"
+placeholder="Keyword Search"
+required
+aria-label="Search text">
+<div class="GlobalSearch-suggestions"></div>
+<button class="btn btn-secondary me-2" data-scope="site" type="submit">
+This Site
+</button>
+<button class="btn btn-secondary" data-scope="all" type="submit">
+All NPS
+</button>
+</div>
+</div>
+<input type="hidden"
+name="sitelimit"
+value="www.nps.gov/subjects/gisandmapping">
+<input type="hidden" name="affiliate" value="nps">
+</form>
+</div>
+<nav id="GlobalNav" class="GlobalNav">
+<h1 id="GlobalNavButtonContainer">
+<button type="button"
+id="GlobalNav-toggle"
+class="GlobalNav__Toggle"
+data-bs-toggle="collapse"
+data-bs-target="#GlobalNavCollapse"
+aria-controls="GlobalNavCollapse"
+aria-expanded="false"
+aria-label="Open Menu">
+<span class="GlobalNav__Toggle__Text GlobalNav__Toggle__Text--closed">
+<i class="fa fa-bars"></i>
+<span class="visually-hidden">Open</span>
+Menu
+</span>
+<span class="GlobalNav__Toggle__Text GlobalNav__Toggle__Text--open">
+<i class="fa fa-close"></i>
+Close
+<span class="visually-hidden">Menu</span>
+</span>
+</button>
+</h1>
+<div id="GlobalNavCollapse" class="collapse">
+<div class="container">
+<p class="GlobalNav__LanguageInfo">
+</p>
+<h2 class="GlobalNav__SectionHeading GlobalNav__SectionHeading--green" hidden>
+Explore This Park
+</h2>
+<ul id="GlobalNavListLocal" class="GlobalNav__List" hidden></ul>
+<h2 class="GlobalNav__SectionHeading GlobalNav__SectionHeading--blue">
+Explore the National Park Service
+</h2>
+<ul id="GlobalNavList" class="GlobalNav__List"></ul>
+</div>
+</div>
+</nav>
+</div>
+<!--googleon: index-->
+<div id="myModal" class="modal refreshableModal" tabindex="-1" aria-labelledby="exitModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h2 class="modal-title visually-hidden" id="exitModalLabel">Exiting nps.gov</h2>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body"></div>
+<div class="modal-footer">
+<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+</div>
+</div>
+</div>
+</div>
+<div id="cs_control_481716" class="cs_control CS_Element_Schedule"><div  title="" id="CS_Element_BannerContainer"><div id="gridRow_1_1_481716" class="cs_GridRow"><div id="gridCol_1_1_1_1_481716" class="cs_GridColumn"><div id="cs_control_828672" class="cs_control CS_Element_CustomCF"><div id="CS_CCF_7323739_828672">
+<script>
+window.addEventListener('load', (event) => {
+NPS.utility.updateBannerImageFromJSON( "gisandmapping" );
+});
+</script>
+<header id="HERO" class="Hero Hero--Ribbon -secondary">
+<div id="HeroBanner" class="HeroBanner HeroBanner--long">
+<div class="HeroBanner__TitleContainer">
+<div class="container">
+<a href="&#x2f;subjects&#x2f;gisandmapping&#x2f;"
+class="HeroBanner__Title"
+>GIS, Cartography & Mapping</a>
+</div>
+</div>
+<div class="picturefill-background"
+role="img"
+style="background-image: url('/common/uploads/banner_image/nri/secondary/C8A974E9-A375-2880-2D4A9446DE43552A.jpg?mode=crop&quality=90&width=1024&height=200');background-position 50% 0%;" aria-label="Topographic image of the Sierra Nevada mountain range showing mountain peaks against a turquoise sky">
+<span data-src="/common/uploads/banner_image/nri/secondary/C8A974E9-A375-2880-2D4A9446DE43552A.jpg?mode=crop&quality=90&width=1200&height=200"
+data-media="(min-width: 1024px)"></span>
+<span data-src="/common/uploads/banner_image/nri/secondary/C8A974E9-A375-2880-2D4A9446DE43552A.jpg?mode=crop&quality=90&width=2400&height=400"
+data-media="(min-width: 1024px) and (min-resolution: 144dppx)"></span>
+<span data-src="/common/uploads/banner_image/nri/secondary/C8A974E9-A375-2880-2D4A9446DE43552A.jpg?mode=crop&quality=90&width=2400&height=400"
+data-media="(min-width: 1024px) and (-webkit-min-device-pixel-ratio: 1.5)"></span>
+<span data-src="/common/uploads/banner_image/nri/secondary/C8A974E9-A375-2880-2D4A9446DE43552A.jpg?mode=crop&quality=90&width=2400&height=400"
+data-media="(min-width: 1440px)"></span>
+</div>
+</div>
+</header>
+</div></div><div id="cs_control_481828" class="cs_control CS_Element_CustomCF"><div id="CS_CCF_7323739_481828"> </div></div></div></div></div></div>
+<div id="Subject-header">
+<div class="container">
+<div class="pull-left">
+<!--googleoff: index-->
+<nav id="LocalNav-desktop-nav" role="navigation">
+<div id="cs_control_699042" class="cs_control CS_Element_CustomCF"><div id="CS_CCF_7323739_699042"><div id="cs_control_481717" class="cs_control CS_Element_Custom"><!-- _CSDPFID=7323739|7323739=_CSDPFID -->
+<style type="text/css">
+div.ColumnMain #npsNav h2 { display:none }
+</style>
+<!-- nav -->
+<!--googleoff: index-->
+<div id="npsNav" class="A3233F63-0636-C5E3-91F49490ACB6C7CA">
+<ul id="LocalNav" class="sm sm-nps"></ul>
+</div>
+<!--googleon: index-->
+<script>
+jQuery(document).ready(function() {
+NPS.display.outputNav('/subjects/gisandmapping','/subjects/gisandmapping/nps-maps.htm','read');
+});
+</script>
+</div></div></div>
+</nav>
+<!--googleon: index-->
+<script>
+(function ($) {
+// Hide park home
+$("#LocalNav-desktop-nav ul li a:contains('Park Home')")
+.parent()
+.hide();
+// Hide park home
+$("li#LocalNav-mobile ul li a:contains('Park Home')")
+.parent()
+.hide();
+$("ul#LocalNav > li > a")
+.wrap("<div class='top-lvl-item-container'>")
+.wrap("<div class='top-lvl-item'>");
+})(jQuery);
+</script>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+jQuery(document).ready(function() {
+setTimeout( function() {
+NPS.display.showAdminTools( 0 );
+} ,10);
+});
+</script>
+<div id="main" role="main" class="MainContent">
+<style>
+#modal-contact-us .modal-body { padding-top: 0px; }
+.modal-header { border:none; }
+</style>
+<div class="modal fade" id="modal-contact-us" tabindex="-1" aria-labelledby="modal-contact-us-label">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title visually-hidden" id="modal-contact-us-label">Contact Us</h4>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body">
+<iframe frameborder="0" id="modal-contact-us-iframe" width="100%" height="100%" title="Contact Us"></iframe>
+</div>
+</div>
+</div>
+</div>
+<div id="adminTools"></div>
+<div class="container">
+<div class="ColumnGrid row">
+<!--googleoff: index-->
+<div class="Breadcrumbs container">
+<div class="row">
+<div class="col-sm-12">
+<ol id="breadcrumbs" style="display:none;" class="Breadcrumbs"></ol>
+</div>
+</div>
+</div>
+<!--googleon: index-->
+<div class="ColumnMain col-sm-12">
+<div class="ContentHeader text-content-size">
+<h1 class="page-title">Find a National Park Service Map</h1>
+</div>
+<div class="row">
+<div class="col-sm-12">
+<div id="cs_control_536382" class="cs_control CS_Element_Schedule"><div  title="" id="CS_Element_contentcontainer"><div id="gridRow_1_1_536382" class="cs_GridRow"><div id="gridCol_1_1_1_1_536382" class="cs_GridColumn"><div id="cs_control_7379008" class="cs_control CS_Element_Custom"><style>blockquote {border-left: 5px solid #fff;}</style>
+<div class="Component ArticleTextGroup TextWrapped clearfix">
+<p>Find a National Park Service map to plan your next park visit. Search and download our catalog of +1000 maps directly to your mobile device or print and hang on your wall at home. All NPS maps produced by <a href="/subjects/hfc/index.htm" id="CP___PAGEID=852696,index.htm,30446|">Harpers Ferry Center</a> are free and available as JPEGs, PDFs, or Adobe production files. </p>
+<h2>Click on a State</h2>
+</div></div><div id="cs_control_7323826" class="cs_control CS_Element_Custom"><style>blockquote {border-left: 5px solid #fff;}</style>
+<div class="Component ArticleTextGroup TextWrapped clearfix">
+<figure class="-auto-width">
+<picture>
+<source type="image/png" srcset="/subjects/gisandmapping/images/US-map_1.png">
+<img
+alt="Map of US states and territories"
+title="US-map states and territories"
+src="/subjects/gisandmapping/images/US-map_1.png"
+usemap="#6053"
+>
+</picture>
+<map id="mapid-6053" name="6053"><area shape="poly" coords="35,20,34,49,95,67,101,32,55,17" href="https://www.nps.gov/media/photo/collection.htm?pg=7347320&id=305fb7af-a71b-469b-941e-a98b439c882f&p=1&sort=relevance&state=wa" alt="Washington">
+<area shape="poly" coords="32,50,15,99,80,116,95,67" href="https://www.nps.gov/media/photo/collection.htm?pg=7347320&id=305fb7af-a71b-469b-941e-a98b439c882f&p=1&sort=relevance&state=or" alt="Oregon">
+<area shape="poly" coords="110,31,211,47,206,98,144,90,125,94,115,69,108,52" href="https://www.nps.gov/media/photo/collection.htm?pg=7347320&id=305fb7af-a71b-469b-941e-a98b439c882f&p=1&sort=relevance&state=mt" alt="Montana">
+<area shape="poly" coords="103,33,83,116,136,126,143,92,126,97,115,71" href="https://www.nps.gov/media/photo/collection.htm?pg=7347320&id=305fb7af-a71b-469b-941e-a98b439c882f&p=1&sort=relevance&state=id" alt="Idaho">
+<area shape="poly" coords="145,91,135,140,202,148,206,100" href="https://www.nps.gov/media/photo/collection.htm?pg=7347320&id=305fb7af-a71b-469b-941e-a98b439c882f&p=1&sort=relevance&state=wy" alt="Wyoming">
+<area shape="poly" coords="14,101,9,121,25,201,51,233,78,237,87,218,44,148,52,112" href="https://www.nps.gov/media/photo/collection.htm?pg=7347320&id=305fb7af-a71b-469b-941e-a98b439c882f&p=1&sort=relevance&state=ca" alt="California">
+<area shape="poly" coords="54,112,46,148,84,208,91,196,94,196,109,125" href="https://www.nps.gov/media/photo/collection.htm?pg=7347320&id=305fb7af-a71b-469b-941e-a98b439c882f&p=1&sort=relevance&state=nv" alt="Nevada">
+<area shape="poly" coords="110,125,98,186,146,194,153,143,135,140,136,130" href="https://www.nps.gov/media/photo/collection.htm?pg=7347320&id=305fb7af-a71b-469b-941e-a98b439c882f&p=1&sort=relevance&state=ut" alt="Utah">
+<area shape="poly" coords="98,188,93,198,89,209,89,220,79,243,114,264,135,266,145,197" href="https://www.nps.gov/media/photo/collection.htm?pg=7347320&id=305fb7af-a71b-469b-941e-a98b439c882f&p=1&sort=relevance&state=az" alt="Arizona">
+<area shape="poly" coords="154,144,221,151,218,202,148,194" href="https://www.nps.gov/media/photo/collection.htm?pg=7347320&id=305fb7af-a71b-469b-941e-a98b439c882f&p=1&sort=relevance&state=co" alt="Colorado">
+<area shape="poly" coords="147,197,206,203,201,264,149,262,137,265" href="https://www.nps.gov/media/photo/collection.htm?pg=7347320&id=305fb7af-a71b-469b-941e-a98b439c882f&p=1&sort=relevance&state=nm" alt="New Mexico">
+<area shape="poly" coords="166,265,195,302,211,293,225,308,242,336,265,345,262,323,281,311,301,297,305,279,299,266,297,247,288,242,271,246,238,234,237,211,207,209,202,264" href="https://www.nps.gov/media/photo/collection.htm?pg=7347320&id=305fb7af-a71b-469b-941e-a98b439c882f&p=1&sort=relevance&state=tx" alt="Texas">
+<area shape="poly" coords="209,202,207,209,237,210,240,232,270,243,284,241,295,244,294,219,293,205" href="https://www.nps.gov/media/photo/collection.htm?pg=7347320&id=305fb7af-a71b-469b-941e-a98b439c882f&p=1&sort=relevance&state=ok" alt="Oklahoma">
+<area shape="poly" coords="223,163,221,200,292,203,292,177,283,165" href="https://www.nps.gov/media/photo/collection.htm?pg=7347320&id=305fb7af-a71b-469b-941e-a98b439c882f&p=1&sort=relevance&state=ks" alt="Kansas">
+<area shape="poly" coords="206,123,204,147,223,149,224,161,282,164,281,156,275,132,265,128,252,126" href="https://www.nps.gov/media/photo/collection.htm?pg=7347320&id=305fb7af-a71b-469b-941e-a98b439c882f&p=1&sort=relevance&state=ne" alt="Nebraska">
+<area shape="poly" coords="209,86,207,123,272,127,273,96,272,89" href="https://www.nps.gov/media/photo/collection.htm?pg=7347320&id=305fb7af-a71b-469b-941e-a98b439c882f&p=1&sort=relevance&state=sd" alt="South Dakota">
+<area shape="poly" coords="214,48,209,85,274,88,268,51" href="https://www.nps.gov/media/photo/collection.htm?pg=7347320&id=305fb7af-a71b-469b-941e-a98b439c882f&p=1&sort=relevance&state=nd" alt="North Dakota">
+<area shape="poly" coords="269,49,276,90,275,118,320,117,307,106,307,93,310,79,329,60" href="https://www.nps.gov/media/photo/collection.htm?pg=7347320&id=305fb7af-a71b-469b-941e-a98b439c882f&p=1&sort=relevance&state=mn" alt="Minnesota">
+<area shape="poly" coords="276,121,276,130,284,155,321,154,326,149,326,145,332,136,324,128,320,119" href="https://www.nps.gov/media/photo/collection.htm?pg=7347320&id=305fb7af-a71b-469b-941e-a98b439c882f&p=1&sort=relevance&state=ia" alt="Iowa">
+<area shape="poly" coords="285,157,295,176,295,207,336,207,340,215,348,203,343,193,334,185,334,179,325,169,322,157" href="https://www.nps.gov/media/photo/collection.htm?pg=7347320&id=305fb7af-a71b-469b-941e-a98b439c882f&p=1&sort=relevance&state=mo" alt="Missouri">
+<area shape="poly" coords="298,207,299,248,303,253,333,253,329,242,343,218,337,212,332,210" href="https://www.nps.gov/media/photo/collection.htm?pg=7347320&id=305fb7af-a71b-469b-941e-a98b439c882f&p=1&sort=relevance&state=ar" alt="Arkansas">
+<area shape="poly" coords="301,255,306,276,304,294,318,297,333,301,343,301,355,301,352,291,347,287,346,281,328,280,327,270,332,263,330,255" href="https://www.nps.gov/media/photo/collection.htm?pg=7347320&id=305fb7af-a71b-469b-941e-a98b439c882f&p=1&sort=relevance&state=la" alt="Louisiana">
+<area shape="poly" coords="341,229,333,241,335,255,334,261,335,267,330,273,332,278,346,279,351,286,361,286,360,227" href="https://www.nps.gov/media/photo/collection.htm?pg=7347320&id=305fb7af-a71b-469b-941e-a98b439c882f&p=1&sort=relevance&state=ms" alt="Mississippi">
+<area shape="poly" coords="313,79,311,103,322,115,330,130,355,130,358,97,348,89" href="https://www.nps.gov/media/photo/collection.htm?pg=7347320&id=305fb7af-a71b-469b-941e-a98b439c882f&p=1&sort=relevance&state=wi" alt="Wisconsin">
+<area shape="poly" coords="332,131,335,137,325,158,336,177,338,184,348,199,357,190,361,176,361,139,355,130" href="https://www.nps.gov/media/photo/collection.htm?pg=7347320&id=305fb7af-a71b-469b-941e-a98b439c882f&p=1&sort=relevance&state=il" alt="Illinois">
+<area shape="poly" coords="363,139,384,137,389,171,384,175,377,185,361,188" href="https://www.nps.gov/media/photo/collection.htm?pg=7347320&id=305fb7af-a71b-469b-941e-a98b439c882f&p=1&sort=relevance&state=in" alt="Indiana">
+<area shape="poly" coords="366,137,366,113,361,96,349,86,318,78,350,67,391,72,405,102,407,117,399,134" href="https://www.nps.gov/media/photo/collection.htm?pg=7347320&id=305fb7af-a71b-469b-941e-a98b439c882f&p=1&sort=relevance&state=mi" alt="Michigan">
+<area shape="poly" coords="386,137,407,137,422,129,426,150,423,162,414,174,396,174,391,171" href="https://www.nps.gov/media/photo/collection.htm?pg=7347320&id=305fb7af-a71b-469b-941e-a98b439c882f&p=1&sort=relevance&state=oh" alt="Ohio">
+<area shape="poly" coords="411,177,417,185,405,199,361,206,349,206,350,200,358,191,378,188,389,174,400,176" href="https://www.nps.gov/media/photo/collection.htm?pg=7347320&id=305fb7af-a71b-469b-941e-a98b439c882f&p=1&sort=relevance&state=ky" alt="Kentucky">
+<area shape="poly" coords="349,208,343,218,342,225,397,222,421,200" href="https://www.nps.gov/media/photo/collection.htm?pg=7347320&id=305fb7af-a71b-469b-941e-a98b439c882f&p=1&sort=relevance&state=tn" alt="Tennessee">
+<area shape="poly" coords="363,227,363,285,373,284,372,277,398,273,395,263,396,255,386,225" href="https://www.nps.gov/media/photo/collection.htm?pg=7347320&id=305fb7af-a71b-469b-941e-a98b439c882f&p=1&sort=relevance&state=al" alt="Alabama">
+<area shape="poly" coords="389,225,399,254,399,263,399,276,436,272,438,253,411,223" href="https://www.nps.gov/media/photo/collection.htm?pg=7347320&id=305fb7af-a71b-469b-941e-a98b439c882f&p=1&sort=relevance&state=ga" alt="Georgia">
+<area shape="poly" coords="375,279,375,285,396,291,413,290,425,302,431,319,456,345,465,330,456,298,440,274,401,278,398,275" href="https://www.nps.gov/media/photo/collection.htm?pg=7347320&id=305fb7af-a71b-469b-941e-a98b439c882f&p=1&sort=relevance&state=fl" alt="Florida">
+<area shape="poly" coords="440,251,414,222,424,217,439,217,450,217,459,226,453,241" href="https://www.nps.gov/media/photo/collection.htm?pg=7347320&id=305fb7af-a71b-469b-941e-a98b439c882f&p=1&sort=relevance&state=sc" alt="South Carolina">
+<area shape="poly" coords="424,199,399,222,414,221,433,216,453,217,460,225,473,216,483,209,485,197,481,190" href="https://www.nps.gov/media/photo/collection.htm?pg=7347320&id=305fb7af-a71b-469b-941e-a98b439c882f&p=1&sort=relevance&state=nc" alt="North Carolina">
+<area shape="poly" coords="410,198,418,190,424,191,437,184,442,170,454,159,465,166,474,173,479,183,482,188" href="https://www.nps.gov/media/photo/collection.htm?pg=7347320&id=305fb7af-a71b-469b-941e-a98b439c882f&p=1&sort=relevance&state=va" alt="Virginia">
+<area shape="poly" coords="415,176,425,165,427,154,438,158,449,157,451,159,439,173,436,182,424,188" href="https://www.nps.gov/media/photo/collection.htm?pg=7347320&id=305fb7af-a71b-469b-941e-a98b439c882f&p=1&sort=relevance&state=wv" alt="West Virginia">
+<area shape="poly" coords="425,129,439,125,474,120,480,128,482,138,477,145,434,154,429,152" href="https://www.nps.gov/media/photo/collection.htm?pg=7347320&id=305fb7af-a71b-469b-941e-a98b439c882f&p=1&sort=relevance&state=pa" alt="Pennsylvania">
+<area shape="poly" coords="433,124,436,110,438,104,459,99,459,91,467,79,479,77,486,93,489,113,489,128,476,118" href="https://www.nps.gov/media/photo/collection.htm?pg=7347320&id=305fb7af-a71b-469b-941e-a98b439c882f&p=1&sort=relevance&state=ny" alt="New York">
+<area shape="poly" coords="18,300,18,417,167,417,167,301" href="https://www.nps.gov/media/photo/collection.htm?pg=7347320&id=305fb7af-a71b-469b-941e-a98b439c882f&p=1&sort=relevance&state=ak" alt="Alaska">
+<area shape="poly" coords="173,358,174,416,254,417,250,361" href="https://www.nps.gov/media/photo/collection.htm?pg=7347320&id=305fb7af-a71b-469b-941e-a98b439c882f&p=1&sort=relevance&state=hi" alt="Hawaii">
+<area shape="poly" coords="257,368,257,416,319,417,318,371" href="https://www.nps.gov/media/photo/collection.htm?pg=7347320&id=305fb7af-a71b-469b-941e-a98b439c882f&p=1&sort=relevance&state=gu" alt="Guam">
+<area shape="poly" coords="323,369,323,417,384,416,384,369" href="https://www.nps.gov/media/photo/collection.htm?pg=7347320&id=305fb7af-a71b-469b-941e-a98b439c882f&p=1&sort=relevance&state=sp" alt="Northern Mariana Islands">
+<area shape="poly" coords="390,367,390,417,450,418,449,370" href="https://www.nps.gov/media/photo/collection.htm?pg=7347320&id=305fb7af-a71b-469b-941e-a98b439c882f&p=1&sort=relevance&state=as" alt="American Samoa">
+<area shape="poly" coords="457,369,456,417,517,417,515,367" href="https://www.nps.gov/media/photo/collection.htm?pg=7347320&id=305fb7af-a71b-469b-941e-a98b439c882f&p=1&sort=relevance&state=pr" alt="Puerto Rico">
+<area shape="poly" coords="523,370,523,416,584,417,579,370" href="https://www.nps.gov/media/photo/collection.htm?pg=7347320&id=305fb7af-a71b-469b-941e-a98b439c882f&p=1&sort=relevance&state=vi" alt="Virgin Islands">
+<area shape="poly" coords="541,13,541,37,590,37,589,14" href="https://www.nps.gov/media/photo/collection.htm?pg=7347320&id=305fb7af-a71b-469b-941e-a98b439c882f&p=1&sort=relevance&state=me" alt="Maine">
+<area shape="poly" coords="542,43,542,63,590,64,588,42" href="https://www.nps.gov/media/photo/collection.htm?pg=7347320&id=305fb7af-a71b-469b-941e-a98b439c882f&p=1&sort=relevance&state=nh" alt="New Hampshire">
+<area shape="poly" coords="541,70,541,93,588,92,590,71" href="https://www.nps.gov/media/photo/collection.htm?pg=7347320&id=305fb7af-a71b-469b-941e-a98b439c882f&p=1&sort=relevance&state=vt" alt="Vermont">
+<area shape="poly" coords="541,100,539,119,593,121,591,100" href="https://www.nps.gov/media/photo/collection.htm?pg=7347320&id=305fb7af-a71b-469b-941e-a98b439c882f&p=1&sort=relevance&state=ma" alt="Massachusetts">
+<area shape="poly" coords="542,127,540,148,591,148,591,127" href="https://www.nps.gov/media/photo/collection.htm?pg=7347320&id=305fb7af-a71b-469b-941e-a98b439c882f&p=1&sort=relevance&state=ri" alt="Rhode Island">
+<area shape="poly" coords="541,157,543,177,589,178,590,156" href="https://www.nps.gov/media/photo/collection.htm?pg=7347320&id=305fb7af-a71b-469b-941e-a98b439c882f&p=1&sort=relevance&state=ct" alt="Connecticut">
+<area shape="poly" coords="541,185,540,206,590,206,591,185" href="https://www.nps.gov/media/photo/collection.htm?pg=7347320&id=305fb7af-a71b-469b-941e-a98b439c882f&p=1&sort=relevance&state=nj" alt="New Jersey">
+<area shape="poly" coords="541,213,542,234,591,234,591,211" href="https://www.nps.gov/media/photo/collection.htm?pg=7347320&id=305fb7af-a71b-469b-941e-a98b439c882f&p=1&sort=relevance&state=de" alt="Delaware">
+<area shape="poly" coords="540,241,541,263,591,262,590,241" href="https://www.nps.gov/media/photo/collection.htm?pg=7347320&id=305fb7af-a71b-469b-941e-a98b439c882f&p=1&sort=relevance&state=md" alt="Maryland">
+<area shape="poly" coords="541,269,541,290,591,291,589,269" href="https://www.nps.gov/media/photo/collection.htm?pg=7347320&id=305fb7af-a71b-469b-941e-a98b439c882f&p=1&sort=relevance&state=dc" alt="Washington, DC"></map>
+</figure><!-- floating-image alignment  -->
+<h4>Find a park map by state or territory.</h4>
+</div>
+<script type="text/javascript">
+jQuery(document).ready(function() {
+jQuery('#mapid-6053').imageMapResize();
+});
+</script></div><div id="cs_control_7381571" class="cs_control CS_Element_Custom"><style>blockquote {border-left: 5px solid #fff;}</style>
+<div class="Component ArticleTextGroup TextWrapped clearfix">
+<h2>Search for a park map by keyword, state, or park</h2>
+</div></div><div id="cs_control_7351118" class="cs_control CS_Element_Custom">
+<link href="/common/commonspot/templates/assets/libs/jquery.magnific-popup/magnific-popup.css" rel="stylesheet">
+<script type="text/javascript" src="/common/commonspot/customcf/photogallery/scripts/plugins.js"></script>
+<div id="PhotoGallery-Container7351118"></div>
+<div id="paginationWrapper7351118">
+<div class="pagination-old"></div>
+</div>
+<script type="text/javascript">
+(function ($) {
+var collections = $.parseJSON( '[{"archive":"HFC","title":"National Park Service Maps","description":"Find and download National Park Service maps here ","id":"305fb7af-a71b-469b-941e-a98b439c882f","displayAssetId":"4a61efdd-8f68-4538-b580-a7dccd1c4f95","count":927}]' );
+var controlID = '7351118';
+var displayNumber = '20';
+var collectionPageURL = '/media/photo/collection.htm?pg=7323739&id=';
+var npGalleryURL = 'https://www.nps.gov/npgallery';
+$(document).ready(function () {
+for ( i = 0; i < collections.length; i++ ) {
+collection_id = collections[i].id;
+jQuery('#PhotoGallery-Container' + controlID).append("<div id='" + collection_id + "'></div>");
+}
+var results_length = collections.length;
+var max_display = parseInt(displayNumber);
+var current_page = 1;
+row_index = 0;
+draw_paging(current_page);
+display_galleries(current_page);
+function display_galleries(page) { console.log( 'in display galleries' );
+var start = (page * max_display) - max_display;
+var end = page * max_display;
+var $target = $('#PhotoGallery-Container' + controlID );
+// $target.empty(); // this no longer works as intended. *IF* it is still necessary, we need to move it above the for loop
+var $result_template = $('<div class="PhotoGallery PhotoGallery--ListItem row"><div class="ColumnMain col-sm-6"><a class="PhotoGallery__CoverLink" href="" style="background-color:rgba(0,0,0,0.17)"><svg class="icon" focusable="false" aria-hidden="true" style="z-index:2; height: 33px; width: 29px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/common/commonspot/templates/assets/sprite.symbol.svg#searchable-collection"></use></svg><img class="PhotoGallery__CoverImage" alt="" src="" style="opacity: inherit;"></a></div><div class="ColumnMain col-sm-6"><div class="PhotoGallery__Kicker">Searchable Collection</div><h2 class="PhotoGallery__Title"><a class="PhotoGallery__TitleLink" href=""></a></h2><div class="PhotoGallery__Count"></div><p class="PhotoGallery__Description text-content-size text-content-style"></p></div></div>');
+if (end > results_length) {
+end = results_length;
+}
+for (var i = start; i < end; i++) {
+var asset = collections[i]; console.log( asset );
+var $tile = $result_template.clone(false);
+var assetID = asset.id;
+var asset_count = asset.count;
+//var park_name = asset.NPSUnits[0].Name;
+//var park_code = asset.NPSUnits[0].Code.toLowerCase();
+var asset_title = asset.title;
+var asset_description = '';
+var assetImageId = asset.displayAssetId;
+if ( 'description' in asset ) {
+asset_description = asset.description;
+$tile.find('p.PhotoGallery__Description').html(asset_description);
+}
+//assetID = assetID.toUpperCase();
+$tile.find('a.PhotoGallery__CoverLink').attr({ href: collectionPageURL + assetID });
+$tile.find('a.PhotoGallery__TitleLink').attr({ href: collectionPageURL + assetID });
+$tile.find('img').attr({ src: npGalleryURL + '/GetAsset/' + assetImageId + '/proxy/hires', alt: asset_title, title: asset_title });
+if (asset_title.length > 30) {
+asset_title = asset_title.substring(0, 30) + "...";
+}
+$tile.find('a.PhotoGallery__TitleLink').text(asset_title);
+$target.append($tile);
+$tile.find('div.PhotoGallery__Count').html('<em>' + asset_count + ' Images</em>');
+delete asset;
+}
+}
+function draw_paging(current_page) {
+var pages = Math.ceil(results_length / max_display);
+var current = parseInt(current_page);
+paging_target = $('#paginationWrapper' + controlID + ' .pagination-old');
+paging_html = '';
+paging_target.empty();
+if (pages > 1) {
+if (current == 1) {
+paging_html += 'Prev';
+} else {
+paging_html += '<a href="javascript:void(0);" class="prev">' + (current - 1) + '</a>';
+}
+paging_html += '<div class="numeric"><ul>';
+for (i = 1; i <= pages; i++) {
+if (i == current) {
+paging_html += '<li>' + i + '</li>';
+} else {
+paging_html += '<li><a href="javascript:void(0);" class="paging">' + i + '</a></li>';
+}
+}
+paging_html += '</ul></div>';
+if (current == pages) {
+paging_html += 'Next';
+} else {
+paging_html += '<a href="javascript:void(0);" class="next">' + (current + 1)  + '</a>';
+}
+paging_target.append(paging_html);
+}
+$('a.paging, a.prev, a.next').on('click', function (event) {
+event.preventDefault();
+var page_num = $(this).text();
+draw_paging(page_num);
+display_galleries(page_num);
+$('body').scrollTop(0);
+});
+}
+}); 	// end of document ready
+})(jQuery);	// end of wrapper function
+</script>
+</div><div id="cs_control_7323823" class="cs_control CS_Element_Custom"><style>blockquote {border-left: 5px solid #fff;}</style>
+<div class="Component ArticleTextGroup TextWrapped clearfix">
+<h2 paraeid="{a430dbf2-badb-440e-8e0d-054536da1c7b}{47}" paraid="1878417546">Special Maps and Collections </h2>
+<p paraeid="{a430dbf2-badb-440e-8e0d-054536da1c7b}{65}" paraid="179228710"><a href="/subjects/gisandmapping/national-park-system-maps.htm" id="CP___PAGEID=7323839,national-park-system-maps.htm,30754|">National Park System Maps</a> – Includes the National Park System Map & Guide, National Park Guide, four versions of the National Park System Map, and the National Park Service Regions Map. </p>
+<p paraeid="{a430dbf2-badb-440e-8e0d-054536da1c7b}{72}" paraid="709728232"> </p>
+<h2 aria-level="2" paraeid="{a430dbf2-badb-440e-8e0d-054536da1c7b}{79}" paraid="13956991" role="heading">Map Resources & Information </h2>
+<p paraeid="{a430dbf2-badb-440e-8e0d-054536da1c7b}{83}" paraid="745357708"><a href="/subjects/gisandmapping/data-sources-and-accuracy.htm" id="CP___PAGEID=7323864,data-sources-and-accuracy.htm,30754|">Data Sources & Accuracy Statement</a> – Users of National Park Service maps are encouraged to read this information. </p>
+<p paraeid="{a430dbf2-badb-440e-8e0d-054536da1c7b}{90}" paraid="1725104799"><a href="https://www.nps.gov/subjects/gisandmapping/map-symbols-patterns-for-nps-maps.htm" id="https://www.nps.gov/subjects/gisandmapping/map-symbols-patterns-for-nps-maps.htm|">NPS Map Symbols</a> – Recreation symbols, bar scales, road shields, patterns, etc. </p>
+<p paraeid="{a430dbf2-badb-440e-8e0d-054536da1c7b}{97}" paraid="1578062082"><a href="/subjects/gisandmapping/printing-oversized-pdf-maps.htm" id="CP___PAGEID=7382566,printing-oversized-pdf-maps.htm,30754|">Printing Oversized PDF Maps</a> – Instructions on how to print oversized PDF format maps on a typical desktop printer. </p>
+<p paraeid="{a430dbf2-badb-440e-8e0d-054536da1c7b}{104}" paraid="1850211466"><a href="/subjects/gisandmapping/production-tips-for-nps-maps.htm" id="CP___PAGEID=7382594,production-tips-for-nps-maps.htm,30754|">Production Tips for NPS Maps</a> – Instructions on how to use national park maps in Adobe Illustrator format, and how to use raster shaded relief files. </p>
+<p paraeid="{a430dbf2-badb-440e-8e0d-054536da1c7b}{111}" paraid="341093093"><a href="/subjects/gisandmapping/starter-maps.htm" id="CP___PAGEID=7382606,starter-maps.htm,30754|">Starter Maps</a> – Starter Maps provide all the ingredients needed to make a standard National Park Service map—labels, symbols, line styles, and area colors—on layers in Adobe Illustrator CS2 format. </p>
+<h2 aria-level="2" paraeid="{a430dbf2-badb-440e-8e0d-054536da1c7b}{127}" paraid="229533061" role="heading">Questions about NPS Maps? </h2>
+<p paraeid="{a430dbf2-badb-440e-8e0d-054536da1c7b}{131}" paraid="1268874418">If you have questions or comments about National Park Service maps, please contact HFC Cartography at HFC_Cartography@nps.gov. </p>
+<h2 aria-level="2" paraeid="{a430dbf2-badb-440e-8e0d-054536da1c7b}{137}" paraid="209540163" role="heading">Additional National Park Service Contacts </h2>
+<h3 aria-level="2" paraeid="{a430dbf2-badb-440e-8e0d-054536da1c7b}{141}" paraid="908020367" role="heading">Obtain GIS Data </h3>
+<p paraeid="{a430dbf2-badb-440e-8e0d-054536da1c7b}{145}" paraid="262532875">Obtain National Park Service Geographic Information Systems data and metadata for the National Parks from the <a href="http://www.nps.gov/gis/" rel="noreferrer noopener" target="_blank">NPS Geographic Information Systems</a> website. </p>
+</div></div></div></div></div></div>
+</div><!-- col-sm-12 -->
+</div><!-- row -->
+</div><!-- ColumnMain col-sm-9 -->
+</div><!-- ColumnGrid row -->
+</div><!-- end container -->
+<div class="container">
+<div class="ColumnGrid row">
+<div class="ColumnMain col-sm-12">
+<div class="row">
+<div class="col-sm-12 text-content-size text-content-style">
+<p style="text-align:right;">Last updated: December 5, 2023</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="ParkFooter" class="ParkFooter">
+<div class="container">
+<!--googleoff: index-->
+<script type="text/javascript">
+jQuery(document).ready(function() {
+var subsiteURL = "/subjects/gisandmapping/";
+var jsonSrc = "";
+var related_orgs = [];
+var max_display = 3;
+jsonSrc = subsiteURL+"experience_more_gisandmapping.json?v="+Date.now();
+jQuery.getJSON( jsonSrc, function( data ) {
+var has_related_content = 0;
+var output_related_content = '<div class="ExperienceMoreFooter"><h2 class="ExperienceMoreTitle">Experience More</h2><div class="row">';
+if ( data.RELATED_SUBS.length ) {
+// Subjects
+output_related_content += '<div class="col-sm-4 col-md-4"><div class="ExperienceMoreCategory"><h3>Subjects</h3><ul>';
+var display_total = data.RELATED_SUBS.length;
+if ( display_total > max_display ) {
+display_total = max_display;
+}
+for ( var i = 0; i < display_total; i++ ) {
+output_related_content += `<li class="ExperienceMore item"><a class="more" href="/subjects/${data.RELATED_SUBS[i].site_code}" onclick="gas('send', 'event', 'Experience More', '${document.location.href}', '/subjects/${data.RELATED_SUBS[i].site_code}', 1, true)">${data.RELATED_SUBS[i].name}</a></li>`;
+has_related_content = 1;
+}
+if ( data.RELATED_SUBS.length > max_display ) {
+output_related_content += '<div class="ExperienceMore item"><div>';
+output_related_content += '<a class="all more" href="/experiencemore/related-content.htm?subjectID=9CA4CB10-F344-4358-B2B2-815774D6B0DC#subject" id="anch_21">';
+output_related_content += '<svg class="icon" focusable="false" role="img"><use xlink:href="/common/commonspot/templates/assets/sprite.symbol.svg#plus-sign"></use></svg>';
+output_related_content += 'View All Related Subjects</a></div></div>';
+}
+output_related_content += '</ul></div></div>';
+}
+if ( data.RELATED_PARKS.length ) {
+// Parks
+output_related_content += '<div class="col-sm-4 col-md-4"><div class="ExperienceMoreCategory"><h3>Parks</h3><ul>';
+var display_total = data.RELATED_PARKS.length;
+if ( display_total > max_display ) {
+display_total = max_display;
+}
+for ( var i = 0; i < display_total; i++ ) {
+output_related_content += `<li class="ExperienceMore item"><a class="more" href="/${data.RELATED_PARKS[i].site_code}" onclick="gas('send', 'event', 'Experience More', '${document.location.href}', '/${data.RELATED_PARKS[i].site_code}', 1, true)">${data.RELATED_PARKS[i].name}</a></li>`;
+has_related_content = 1;
+}
+if ( data.RELATED_PARKS.length > max_display ) {
+output_related_content += '<div class="ExperienceMore item"><div>';
+output_related_content += '<a class="all more" href="/experiencemore/related-content.htm?subjectID=9CA4CB10-F344-4358-B2B2-815774D6B0DC#park" id="anch_21">';
+output_related_content += '<svg class="icon" focusable="false" role="img"><use xlink:href="/common/commonspot/templates/assets/sprite.symbol.svg#plus-sign"></use></svg>';
+output_related_content += 'View All Related Parks</a></div></div>';
+}
+output_related_content += '</ul></div></div>';
+}
+if ( data.RELATED_ORGS.length ) {
+// Organizations
+output_related_content += '<div class="col-sm-4 col-md-4"><div class="ExperienceMoreCategory"><h3>Organizations</h3><ul>';
+var display_total = data.RELATED_ORGS.length;
+if ( display_total > max_display ) {
+display_total = max_display;
+}
+for (var i = 0; i < display_total; i++ ) {
+if ( data.RELATED_ORGS[i].site_code.toString().length ) {
+output_related_content += `<li class="ExperienceMore item"><a class="more" href="/orgs/${data.RELATED_ORGS[i].site_code}" onclick="gas('send', 'event', 'Experience More', '${document.location.href}', '/orgs/${data.RELATED_ORGS[i].site_code}', 1, true)">${data.RELATED_ORGS[i].name}</a></li>`;
+}
+else {
+output_related_content += '<li class="item">'+data.RELATED_ORGS[i].name+'</li>';
+}
+has_related_content = 1;
+}
+if ( data.RELATED_ORGS.length > max_display ) {
+output_related_content += '<div class="ExperienceMore item"><div>';
+output_related_content += '<a class="all more" href="/experiencemore/related-content.htm?subjectID=9CA4CB10-F344-4358-B2B2-815774D6B0DC#org" id="anch_21">';
+output_related_content += '<svg class="icon" focusable="false" role="img"><use xlink:href="/common/commonspot/templates/assets/sprite.symbol.svg#plus-sign"></use></svg>';
+output_related_content += 'View All Related Organizations</a></div></div>';
+}
+output_related_content += '</ul></div></div>';
+}
+output_related_content += '</div></div>';
+if(has_related_content == 1) {
+jQuery("#related_content_position").replaceWith(output_related_content);
+}
+});
+});
+</script>
+<div id="related_content_position"></div>
+<!--googleon: index-->
+<script type="text/javascript">
+jQuery(document).ready(function() {
+var subsiteURL  = "";
+var jsonSrc     = "";
+var siteCode    = "";
+subsiteURL  = "/subjects/gisandmapping/";
+siteCode = subsiteURL.split("/");
+siteCode = siteCode[2];
+if ( subsiteURL.includes("orgs") | subsiteURL.includes("im") | subsiteURL.includes("rlc") ) {
+jsonSrc = subsiteURL+"structured_data_orgs_"+siteCode+".json?v="+Date.now();
+}
+if ( subsiteURL.includes("locations") ) {
+jsonSrc = subsiteURL+"structured_data_locations_"+siteCode+".json?v="+Date.now();
+}
+if ( subsiteURL.includes("subjects") ) {
+jsonSrc = subsiteURL+"structured_data_subjects_"+siteCode+".json?v="+Date.now();
+}
+// Location Site Check //
+urlCheck = window.location.href;
+if (urlCheck.includes("locations")) {
+fileURL = '/locations/gisandmapping/structured_data_gisandmapping.json';
+}
+jQuery.getJSON(jsonSrc, function( data ) {
+var hasSocialMedia = 0;
+var outputSocialMedia = '<div class="col-sm-6 col-md-4 "><div class="ParkFooter-socialLinks"><h3>Stay Connected</h3><ul class="ParkFooter-socialLinks row">';
+if (data.facebookURL) {
+outputSocialMedia += '<li class="col-2 col-sm-4 col-md-2"><a href="'+data.facebookURL+'"><svg class="icon" focusable="false" role="img" aria-label="Facebook for this org or subject"><use xlink:href="/common/commonspot/templates/assets/sprite.symbol.svg#facebook"></use></svg></a></li>';
+hasSocialMedia = 1;
+}
+if (data.twitterURL) {
+data.twitterURL = data.twitterURL.replace('twitter.com', 'x.com')	// convert old Twitter links into equivalent X links
+outputSocialMedia += '<li class="col-2 col-sm-4 col-md-2"><a href="'+data.twitterURL+'"><svg class="icon" focusable="false" role="img" aria-label="X for this org or subject"><use xlink:href="/common/commonspot/templates/assets/sprite.symbol.svg#x-black"></use></svg></a></li>';
+hasSocialMedia = 1;
+}
+if (data.instagramURL) {
+outputSocialMedia += '<li class="col-2 col-sm-4 col-md-2"><a href="'+data.instagramURL+'"><svg class="icon" focusable="false" role="img" aria-label="Instagram for this org or subject"><use xlink:href="/common/commonspot/templates/assets/sprite.symbol.svg#instagram-dark"></use></svg></a></li>';
+hasSocialMedia = 1;
+}
+if (data.youtubeURL) {
+outputSocialMedia += '<li class="col-2 col-sm-4 col-md-2"><a href="'+data.youtubeURL+'"><svg class="icon" focusable="false" role="img" aria-label="YouTube for this org or subject"><use xlink:href="/common/commonspot/templates/assets/sprite.symbol.svg#youtube"></use></svg></a></li>';
+hasSocialMedia = 1;
+}
+if (data.flickrURL) {
+outputSocialMedia += '<li class="col-2 col-sm-4 col-md-4"><a href="'+data.flickrURL+'"><svg class="icon" focusable="false" role="img" aria-label="Flickr for this org or subject"><use xlink:href="/common/commonspot/templates/assets/sprite.symbol.svg#flickr"></use></svg></a></li>';
+hasSocialMedia = 1;
+}
+if (data.tumblrURL) {
+outputSocialMedia += '<li class="col-2 col-sm-4 col-md-2"><a href="'+data.tumblrURL+'"><svg class="icon" focusable="false" role="img" aria-label="Tumblr for this org or subject"><use xlink:href="/common/commonspot/templates/assets/sprite.symbol.svg#tumblr"></use></svg></a></li>';
+hasSocialMedia = 1;
+}
+if (data.foursquareURL) {
+outputSocialMedia += '<li class="col-2 col-sm-12 col-md-6"><a href="'+data.foursquareURL+'"><svg class="icon" focusable="false" role="img" aria-label="FourSquare for this org or subject"><use xlink:href="/common/commonspot/templates/assets/sprite.symbol.svg#foursquare"></use></svg></a></li>';
+hasSocialMedia = 1;
+}
+if (data.pinterestURL) {
+outputSocialMedia += '<li class="col-2 col-sm-4 col-md-2"><a href="'+data.pinterestURL+'"><svg class="icon" focusable="false" role="img" aria-label="Pinterest for this org or subject"><use xlink:href="/common/commonspot/templates/assets/sprite.symbol.svg#pinterest"></use></svg></a></li>';
+hasSocialMedia = 1;
+}
+outputSocialMedia += '</ul></div></div>';
+if(hasSocialMedia == 1) {
+jQuery("#sml_position").replaceWith(outputSocialMedia);
+}
+});
+});
+</script>
+<!--googleoff: index-->
+<div class="row">
+<div class="col-sm-6 col-md-4">
+<div class="ParkFooter-tools">
+<h3>Tools</h3>
+<ul class="row">
+<li class=" col-6  "><a href="/subjects/gisandmapping/siteindex.htm"> Site Index</a></li>
+<li class=" col-6  "><a href="/subjects/gisandmapping/faqs.htm"><i class="fa fa-question-circle"></i> FAQ</a></li>
+</ul>
+</div>
+</div>
+<div id="sml_position"></div>
+</div>
+<!--googleon: index-->
+</div> <!-- container -->
+</div> <!-- ParkFooter -->
+</div><!-- end of <div main> -->
+<!--googleoff: index-->
+<footer id="GlobalFooter" class="GlobalFooter">
+<div class="container">
+<form id="GlobalFooterSearch"
+class="GlobalFooter__Search row g-3 align-items-center"
+action="/search/"
+method="GET"
+role="search">
+<div class="col-auto flex-grow-1 position-relative">
+<input class="form-control"
+id="GlobalFooterSearchInput"
+type="text"
+autocomplete="off"
+name="query"
+placeholder="Keyword Search"
+required
+aria-label="Search">
+<div class="GlobalSearch-suggestions"></div>
+</div>
+<div class="col-auto">
+<button class="btn btn-secondary" data-scope="site" type="submit">
+This Site
+</button>
+</div>
+<div class="col-auto">
+<button class="btn btn-secondary" data-scope="all" type="submit">
+All NPS
+</button>
+</div>
+<input type="hidden"
+name="sitelimit"
+value="www.nps.gov/subjects/gisandmapping">
+<input type="hidden" name="affiliate" value="nps">
+</form>
+<div class="row">
+<img class="GlobalFooter-printLogo print-only"
+src="/common/commonspot/templates/assets/images/branding/nps_logo-bw.gif"
+alt="">
+<div class="col-sm-12">
+<div class="GlobalFooter-AppPromo">
+<div class="GlobalFooter-AppPromo__Text">
+<div class="GlobalFooter-AppPromo__Heading">Experience Your America.</div>
+<div class="GlobalFooter-AppPromo__Subheading GlobalFooter-AppPromo__BottomGroup">
+<p>Download the NPS app to navigate the parks on the go.</p>
+<p class="GlobalFooter-AppPromo__BadgeLinks">
+<a href="https://apps.apple.com/us/app/national-park-service/id1549226484"
+class="GlobalFooter-AppPromo__BadgeLink" onclick="gas('send', 'event', 'App Promo Footer', 'Apple', document.location.pathname, 1, true);">
+<img alt="Download on the App Store"
+src="/common/commonspot/templates/assets/images/app-promo/app-store-badge.svg"
+width="132"
+height="44">
+</a>
+<a href="https://play.google.com/store/apps/details?id=gov.nps.mobileapp"
+class="GlobalFooter-AppPromo__BadgeLink" onclick="gas('send', 'event', 'App Promo Footer', 'Android', document.location.pathname, 1, true);">
+<img alt="Get it on Google Play"
+src="/common/commonspot/templates/assets/images/app-promo/google-play-badge.svg"
+width="148.5"
+height="44">
+</a>
+</p>
+</div>
+</div>
+<div class="GlobalFooter-AppPromo__ImageContainer">
+<img class="GlobalFooter-AppPromo__Image"
+src="/common/commonspot/templates/assets/images/app-promo/app-promo-phones.png"
+srcset="/common/commonspot/templates/assets/images/app-promo/app-promo-phones.png 1x, /common/commonspot/templates/assets/images/app-promo/app-promo-phones@2x.png 2x"
+alt="Three smartphones showing different screens within the NPS app."
+width="628"
+height="463">
+</div>
+</div>
+</div>
+</div>
+<hr>
+<div class="row">
+<div class="col-xs-12 col-md-4 order-md-1">
+<div class="GlobalFooter-nps-logo">
+<div class="GlobalFooter-nps-logo-text">
+<a href="//www.nps.gov">National Park Service</a>
+<a href="//www.doi.gov">U.S. Department of the Interior</a>
+</div>
+<div class="GlobalFooter-nps-logo-image">
+<a href="//www.nps.gov">
+<svg class=""
+id="nps-logo-footer"
+aria-label="National Park Service Logo"
+role="img"
+focusable="false">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/common/commonspot/templates/assets/sprite.symbol.svg#nps-logo" />
+</svg>
+</a>
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-md-8">
+<ul class="GlobalFooter-generalLinks">
+<li>
+<a href="//www.nps.gov/aboutus/accessibility.htm" >
+Accessibility
+</a>
+</li>
+<li>
+<a href="//www.nps.gov/aboutus/privacy.htm" >
+Privacy Policy
+</a>
+</li>
+<li>
+<a href="//www.nps.gov/aboutus/foia/index.htm" >
+FOIA
+</a>
+</li>
+<li>
+<a href="//www.nps.gov/aboutus/notices.htm" >
+Notices
+</a>
+</li>
+<li>
+<a href="//www.nps.gov/aboutus/contactus.htm" >
+Contact The National Park Service
+</a>
+</li>
+</ul>
+<ul class="GlobalFooter-generalLinks">
+<li>
+<a href="//www.nps.gov/aboutus/faqs.htm" title="National Park Service frequently asked questions">
+NPS FAQ
+</a>
+</li>
+<li>
+<a href="//www.doi.gov/pmb/eeo/no-fear-act" >
+No Fear Act
+</a>
+</li>
+<li>
+<a href="//www.nps.gov/aboutus/disclaimer.htm" >
+Disclaimer
+</a>
+</li>
+<li>
+<a href="//www.nps.gov/aboutus/vulnerability-disclosure-policy.htm" >
+Vulnerability Disclosure Policy
+</a>
+</li>
+<li>
+<a href="//www.usa.gov" >
+USA.gov
+</a>
+</li>
+</ul>
+<ul class="GlobalFooter-socialLinks">
+<li>
+<a href="//www.facebook.com/nationalparkservice">
+<svg class=""
+id="facebook-footer-link"
+aria-label="Facebook"
+role="img"
+focusable="false">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/common/commonspot/templates/assets/sprite.symbol.svg#facebook" />
+</svg>
+</a>
+</li>
+<li>
+<a href="//www.youtube.com/nationalparkservice">
+<svg class=""
+id="youtube-footer-link"
+aria-label="Youtube"
+role="img"
+focusable="false">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/common/commonspot/templates/assets/sprite.symbol.svg#youtube" />
+</svg>
+</a>
+</li>
+<li>
+<a href="//www.x.com/natlparkservice">
+<svg class=""
+id="twitter-footer-link"
+aria-label="Twitter"
+role="img"
+focusable="false">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/common/commonspot/templates/assets/sprite.symbol.svg#x-white" />
+</svg>
+</a>
+</li>
+<li>
+<a href="//www.instagram.com/nationalparkservice">
+<svg class=""
+id="instagram-footer-link"
+aria-label="Instagram"
+role="img"
+focusable="false">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/common/commonspot/templates/assets/sprite.symbol.svg#instagram" />
+</svg>
+</a>
+</li>
+<li>
+<a href="//www.flickr.com/nationalparkservice">
+<svg class=""
+id="flickr-footer-link"
+aria-label="Flickr"
+role="img"
+focusable="false">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/common/commonspot/templates/assets/sprite.symbol.svg#flickr" />
+</svg>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</footer>
+<!--googleon: index-->
+<!-- the rest of the scripts are leftovers from before the centennial down and should be pared down where possible -->
+<script src="/common/commonspot/templates/js/global.js?v=20230112"></script>
+<script src="/common/commonspot/templates/assets/libs/jquery.magnific-popup/jquery.magnific-popup.js"></script>
+<script src="/common/commonspot/templates/assets/js/redesign.js?v=20230112"></script>
+<link href="/common/commonspot/templates/assets/libs/colorbox/colorbox.css" rel="stylesheet">
+<script type="text/javascript" src="/common/commonspot/templates/js/libs/jquery.colorbox-min.js"></script>
+<script src="/common/commonspot/templates/js/intercept-include.js?v=20230112"></script>
+<script src="/common/commonspot/templates/assets/libs/image-map-resizer/imageMapResizer.min.js"></script>
+<script src="/common/commonspot/templates/assets/js/app.late.min.js?v=20230112"></script>
+<div class="modal fade" id="outdated-browser" tabindex="-1" role="dialog">
+</div>
+</body>
+</html>
+<!-- beg (1) PrimaryResources -->
+<script src="/commonspot/javascript/lightbox/overrides.js"></script><script src="/commonspot/javascript/lightbox/window_ref.js"></script><script src="/commonspot/pagemode/always-include-common.js"></script>
+<!-- end (1) PrimaryResources -->
+<!-- beg (2) SecondaryResources -->
+<script src="/ADF/thirdParty/jquery/cookie/jquery.cookie.js"></script>
+<!-- end (2) SecondaryResources -->
+<!-- beg (3) CustomFoot -->
+<!-- end (3) CustomFoot -->
+<!-- beg (4) TertiaryResources -->
+<!-- end (4) TertiaryResources --><script>
+<!--
+var jsPageContributeMode = 'read';
+var jsPageSessionContributeMode = 'read';
+
+var jsPageAuthorMode = 0;
+var jsPageEditMode = 0;
+
+
+if(!commonspot)
+var commonspot = {};
+commonspot.csPage = {};
+
+
+commonspot.csPage.url = '/subjects/gisandmapping/nps-maps.htm';
+
+
+commonspot.csPage.id = 7323739;
+
+commonspot.csPage.siteRoot = '/';
+commonspot.csPage.subsiteRoot = '/subjects/gisandmapping/';
+
+
+// -->
+</script>
+
+<script>
+<!--
+	if (typeof parent.commonspot == 'undefined' || typeof parent.commonspot.lview == 'undefined' || typeof parent.commonspot.lightbox == 'undefined')
+		loadNonDashboardFiles();
+	else if (parent.commonspot && typeof newWindow == 'undefined')
+	{
+		var arrFiles = [
+					{fileName: '/commonspot/javascript/lightbox/overrides.js', fileType: 'script', fileID: 'cs_overrides'},
+					{fileName: '/commonspot/javascript/lightbox/window_ref.js', fileType: 'script', fileID: 'cs_windowref'}
+					];
+		
+		loadDashboardFiles(arrFiles);
+	}
+//-->
+</script>
+</body></html>
