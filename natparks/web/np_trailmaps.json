@@ -4,6 +4,20 @@
   "total_items": 86,
   "items": [
     {
+      "id": "acadia2",
+      "park": "Acadia National Park",
+      "states": [
+        "ME"
+      ],
+      "title": "Acadia National Park Map",
+      "filename": "Acadia-National-Park-Map.pdf",
+      "path": "pdfs/Acadia-National-Park-Map.pdf",
+      "size_bytes": 530581,
+      "sha256": "9e582c33ce14507c184e7c8dab9207ec8339c585f00d78f7c9dbf08db41c1de1",
+      "source_url": "https://npplan.com/wp-content/uploads/2018/06/Acadia-National-Park-Map.pdf",
+      "download_ok": true
+    },    
+    {
       "id": "5acd980d2970",
       "park": "Black Canyon of the Gunnison National Park",
       "states": [

@@ -94,16 +94,12 @@
       <div class="wrap" style="padding:8px 0 0 0;">
         <span class="count" id="count"></span>
       </div>
-      <div class="wrap muted" style="padding:6px 0 0 0; font-size:12px;">
-        Tip: for best results opening JSON locally, serve this folder with a tiny server:
-        <code>python3 -m http.server</code> then visit <code>http://localhost:8000/</code>
-      </div>
     </div>
   </header>
 
   <main class="wrap">
     <section id="results" class="grid"></section>
-    <div class="footer">Works fully offline. Data from <code>np_trailmaps.json</code>. PDFs are in <code>pdfs/</code>.</div>
+    <div class="footer">Prepper Disk</div>
   </main>
 
 <script>
@@ -173,10 +169,10 @@ function card(item){
   const actions = document.createElement("div");
   actions.className = "actions";
   const a = document.createElement("a");
-  a.href = item.path; a.className = "link"; a.textContent = "Open PDF";
+  a.href = item.path; a.className = "link"; a.textContent = "Download PDF";
   a.setAttribute("download", "");
   const src = document.createElement("a");
-  src.href = item.source_url; src.className = "link"; src.textContent = "Source URL";
+  src.href = item.path; src.className = "link"; src.textContent = "Open URL";
   src.target = "_blank"; src.rel = "noopener";
   actions.appendChild(a);
   actions.appendChild(src);
