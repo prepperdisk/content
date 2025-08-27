@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>U.S. National Parks — Trail & Wilderness Maps</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --panel: #0b1120;
+      --muted: #9aa4b2;
+      --text: #e5e7eb;
+      --accent: #22c55e;
+      --accent2: #3b82f6;
+      --ring: rgba(59,130,246,.25);
+      --card: #0a0f1a;
+      --border: rgba(148,163,184,.15);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; background: var(--bg); color: var(--text);
+      font: 15px/1.55 ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+    }
+    header {
+      position: sticky; top: 0; z-index: 10;
+      backdrop-filter: blur(8px);
+      background: linear-gradient(180deg, rgba(11,17,32,.95), rgba(11,17,32,.65));
+      border-bottom: 1px solid var(--border);
+    }
+    .wrap { max-width: 1200px; margin: 0 auto; padding: 16px; }
+    h1 { margin: 0 0 8px; font-size: 22px; letter-spacing: .35px; }
+    .controls {
+      display: grid; gap: 10px;
+      grid-template-columns: 1.3fr 160px 180px 180px 120px;
+    }
+    input[type="search"], select, button {
+      padding: 10px 12px; border-radius: 10px; border: 1px solid var(--border);
+      background: var(--panel); color: var(--text); outline: none;
+    }
+    input[type="search"]:focus, select:focus {
+      border-color: var(--accent2); box-shadow: 0 0 0 3px var(--ring);
+    }
+    .btn { cursor: pointer; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; padding: 18px 16px 40px; }
+    .card {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 16px; padding: 14px; box-shadow: 0 6px 20px rgba(0,0,0,.25);
+      display: flex; flex-direction: column; gap: 8px; min-height: 140px;
+    }
+    .park { font-weight: 700; font-size: 16px; }
+    .muted { color: var(--muted); font-size: 12px; }
+    .chips { display: flex; gap: 6px; flex-wrap: wrap; }
+    .chip {
+      border: 1px solid var(--border); border-radius: 999px; padding: 2px 8px; font-size: 12px; color: var(--muted);
+    }
+    .actions { display: flex; align-items: center; gap: 8px; margin-top: 6px; }
+    .link {
+      padding: 8px 10px; border-radius: 10px; border: 1px solid var(--border);
+      background: var(--panel); color: var(--text); text-decoration: none; text-align: center;
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    }
+    .link:hover { border-color: var(--accent); }
+    .count { color: var(--muted); font-size: 13px; }
+    .footer { text-align: center; color: var(--muted); font-size: 12px; padding: 14px 0 26px; }
+    .row { display: flex; align-items: center; gap: 8px; justify-content: space-between; }
+    .row .left { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+    .badge { background: #0f1a2a; border: 1px solid var(--border); border-radius: 8px; padding: 2px 8px; font-size: 12px; color: var(--muted); }
+    @media (max-width: 1020px) { .controls { grid-template-columns: 1fr 1fr 1fr; } }
+    @media (max-width: 620px) { .controls { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <h1>U.S. National Parks — Trail & Wilderness Maps</h1>
+      <div class="controls">
+        <input id="q" type="search" placeholder="Search parks, states, titles, filenames…" />
+        <select id="state">
+          <option value="">All states</option>
+        </select>
+        <select id="park">
+          <option value="">All parks</option>
+        </select>
+        <select id="sort">
+          <option value="park-asc">Sort: Park (A→Z)</option>
+          <option value="park-desc">Sort: Park (Z→A)</option>
+          <option value="size-desc">Sort: Size (big→small)</option>
+          <option value="size-asc">Sort: Size (small→big)</option>
+          <option value="title-asc">Sort: Title (A→Z)</option>
+          <option value="title-desc">Sort: Title (Z→A)</option>
+        </select>
+        <button id="export" class="btn">Export view → CSV</button>
+      </div>
+      <div class="wrap" style="padding:8px 0 0 0;">
+        <span class="count" id="count"></span>
+      </div>
+      <div class="wrap muted" style="padding:6px 0 0 0; font-size:12px;">
+        Tip: for best results opening JSON locally, serve this folder with a tiny server:
+        <code>python3 -m http.server</code> then visit <code>http://localhost:8000/</code>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="results" class="grid"></section>
+    <div class="footer">Works fully offline. Data from <code>np_trailmaps.json</code>. PDFs are in <code>pdfs/</code>.</div>
+  </main>
+
+<script>
+const STATE_ORDER = ["AK","AL","AR","AS","AZ","CA","CO","CT","DC","DE","FL","GA","GU","HI","IA","ID","IL","IN","KS","KY","LA","MA","MD","ME","MI","MN","MO","MP","MS","MT","NC","ND","NE","NH","NJ","NM","NV","NY","OH","OK","OR","PA","PR","RI","SC","SD","TN","TX","UM","UT","VA","VI","VT","WA","WI","WV","WY"];
+const DATA_URL = "np_trailmaps.json"; // same folder as this HTML
+
+let DATA = [];
+let FILTERED = [];
+
+function norm(s){ return (s||"").toString().toLowerCase(); }
+
+function populateFilters(items){
+  const stateSel = document.getElementById("state");
+  const parkSel = document.getElementById("park");
+  const stateSet = new Set();
+  const parkSet = new Set();
+  items.forEach(it => {
+    (it.states||[]).forEach(s => stateSet.add(s));
+    parkSet.add(it.park);
+  });
+  Array.from(stateSet).sort((a,b)=>STATE_ORDER.indexOf(a)-STATE_ORDER.indexOf(b))
+    .forEach(code => {
+      const opt = document.createElement("option");
+      opt.value = code; opt.textContent = code;
+      stateSel.appendChild(opt);
+    });
+  Array.from(parkSet).sort((a,b)=>a.localeCompare(b)).forEach(p => {
+    const opt = document.createElement("option");
+    opt.value = p; opt.textContent = p;
+    parkSel.appendChild(opt);
+  });
+}
+
+function bytesToMB(n){
+  if(!n || n<=0) return "";
+  return (Math.round(n/1024/1024*10)/10) + " MB";
+}
+
+function card(item){
+  const div = document.createElement("div");
+  div.className = "card";
+  const row1 = document.createElement("div");
+  row1.className = "row";
+  const left = document.createElement("div");
+  left.className = "left";
+  const park = document.createElement("div");
+  park.className = "park";
+  park.textContent = item.park;
+  const chips = document.createElement("div");
+  chips.className = "chips";
+  (item.states||[]).forEach(s=>{
+    const c = document.createElement("span");
+    c.className = "chip"; c.textContent = s; chips.appendChild(c);
+  });
+  left.appendChild(park);
+  left.appendChild(chips);
+  const badge = document.createElement("div");
+  badge.className = "badge";
+  badge.textContent = bytesToMB(item.size_bytes);
+  row1.appendChild(left);
+  row1.appendChild(badge);
+
+  const title = document.createElement("div");
+  title.className = "muted";
+  title.textContent = item.title || item.filename;
+
+  const actions = document.createElement("div");
+  actions.className = "actions";
+  const a = document.createElement("a");
+  a.href = item.path; a.className = "link"; a.textContent = "Open PDF";
+  a.setAttribute("download", "");
+  const src = document.createElement("a");
+  src.href = item.source_url; src.className = "link"; src.textContent = "Source URL";
+  src.target = "_blank"; src.rel = "noopener";
+  actions.appendChild(a);
+  actions.appendChild(src);
+
+  div.appendChild(row1);
+  div.appendChild(title);
+  div.appendChild(actions);
+  return div;
+}
+
+function render(list){
+  const root = document.getElementById("results");
+  root.innerHTML = "";
+  list.forEach(it => root.appendChild(card(it)));
+  document.getElementById("count").textContent =
+    `${list.length} map${list.length===1?"":"s"} shown (of ${DATA.length})`;
+}
+
+function applyFilters(){
+  const q = norm(document.getElementById("q").value);
+  const state = document.getElementById("state").value;
+  const park = document.getElementById("park").value;
+  const sort = document.getElementById("sort").value;
+
+  FILTERED = DATA.filter(it => {
+    const txt = `${it.park} ${it.states.join(" ")} ${it.title} ${it.filename}`.toLowerCase();
+    const passQ = q ? txt.includes(q) : true;
+    const passState = state ? it.states.includes(state) : true;
+    const passPark = park ? it.park === park : true;
+    return passQ && passState && passPark;
+  });
+
+  const sorters = {
+    "park-asc": (a,b)=> a.park.localeCompare(b.park),
+    "park-desc": (a,b)=> b.park.localeCompare(a.park),
+    "size-desc": (a,b)=> (b.size_bytes||0) - (a.size_bytes||0),
+    "size-asc": (a,b)=> (a.size_bytes||0) - (b.size_bytes||0),
+    "title-asc": (a,b)=> (a.title||"").localeCompare(b.title||""),
+    "title-desc": (a,b)=> (b.title||"").localeCompare(a.title||""),
+  };
+  FILTERED.sort(sorters[sort] || sorters["park-asc"]);
+  render(FILTERED);
+}
+
+function exportCSV(rows){
+  const header = ["park","states","title","filename","path","size_bytes","source_url"];
+  const lines = [header.join(",")];
+  rows.forEach(it => {
+    const vals = [
+      it.park,
+      (it.states||[]).join(";"),
+      it.title||"",
+      it.filename,
+      it.path,
+      String(it.size_bytes||0),
+      it.source_url
+    ].map(v => `"${String(v).replace(/"/g,'""')}"`);
+    lines.push(vals.join(","));
+  });
+  const blob = new Blob([lines.join("\n")], {type: "text/csv"});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url; a.download = "np_trailmaps_view.csv";
+  document.body.appendChild(a); a.click(); a.remove();
+  URL.revokeObjectURL(url);
+}
+
+async function boot(){
+  try{
+    const resp = await fetch(DATA_URL);
+    const payload = await resp.json();
+    DATA = (payload.items || []).map(it => ({
+      park: it.park,
+      states: it.states || [],
+      title: it.title || "",
+      filename: it.filename || "",
+      path: it.path || "",
+      size_bytes: it.size_bytes || 0,
+      source_url: it.source_url || ""
+    }));
+  }catch(e){
+    console.error("Failed to load JSON", e);
+    DATA = [];
+  }
+  populateFilters(DATA);
+  applyFilters();
+  document.getElementById("q").addEventListener("input", applyFilters);
+  document.getElementById("state").addEventListener("change", applyFilters);
+  document.getElementById("park").addEventListener("change", applyFilters);
+  document.getElementById("sort").addEventListener("change", applyFilters);
+  document.getElementById("export").addEventListener("click", () => exportCSV(FILTERED));
+}
+boot();
+</script>
+</body>
+</html>
